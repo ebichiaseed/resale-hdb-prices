@@ -1,0 +1,3114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec0629931e0df3491a9f23db6813c662 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ec0629931e0df3491a9f23db6813c662" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ec0629931e0df3491a9f23db6813c662 = L.map(
+                "map_ec0629931e0df3491a9f23db6813c662",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c54e2f8b69f7d96a4c39267075ff43a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c54e2f8b69f7d96a4c39267075ff43a9.addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+            var circle_marker_76264ff1c6d022d7c236a76b291094b3 = L.circleMarker(
+                [1.3691, 103.8454],
+                {"bubblingMouseEvents": true, "color": "#fed06c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed06c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.366351650915879, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f80a655f2ddb8f71ba3daa264cae72a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c44765c1e74b1cb1bd9b96f4875985fb = $(`<div id="html_c44765c1e74b1cb1bd9b96f4875985fb" style="width: 100.0%; height: 100.0%;"><b>ANG MO KIO</b><br>Avg Resale Price: 5719.56 SGD/sqm<br>Avg Transactions: 157<br>Avg Remaining Lease: 58.0 years<br>Median Remaining Lease: 57.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f80a655f2ddb8f71ba3daa264cae72a3.setContent(html_c44765c1e74b1cb1bd9b96f4875985fb);
+            
+        
+
+        circle_marker_76264ff1c6d022d7c236a76b291094b3.bindPopup(popup_f80a655f2ddb8f71ba3daa264cae72a3)
+        ;
+
+        
+    
+    
+            var circle_marker_f8331d7194d3d37b9e7bacc7f395db75 = L.circleMarker(
+                [1.3691, 103.8454],
+                {"bubblingMouseEvents": true, "color": "#ffeda0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeda0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.612530626531328, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_60c86b44421c645c8b9939fb80f54dd8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_515d0004204a19090eedf3d616901435 = $(`<div id="html_515d0004204a19090eedf3d616901435" style="width: 100.0%; height: 100.0%;"><b>ANG MO KIO</b><br>Avg Resale Price: 4899.83 SGD/sqm<br>Avg Transactions: 4548<br>Avg Remaining Lease: 59.3 years<br>Median Remaining Lease: 57.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_60c86b44421c645c8b9939fb80f54dd8.setContent(html_515d0004204a19090eedf3d616901435);
+            
+        
+
+        circle_marker_f8331d7194d3d37b9e7bacc7f395db75.bindPopup(popup_60c86b44421c645c8b9939fb80f54dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_abe775d4cd604debc71c1296e01f5565 = L.circleMarker(
+                [1.3691, 103.8454],
+                {"bubblingMouseEvents": true, "color": "#fec662", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec662", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.698284914245713, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_07d1b3ba53f16c369a6532a8bb3bc0b0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_651a13761f9ae45a16d51df0133fd233 = $(`<div id="html_651a13761f9ae45a16d51df0133fd233" style="width: 100.0%; height: 100.0%;"><b>ANG MO KIO</b><br>Avg Resale Price: 5893.01 SGD/sqm<br>Avg Transactions: 2442<br>Avg Remaining Lease: 67.2 years<br>Median Remaining Lease: 59.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_07d1b3ba53f16c369a6532a8bb3bc0b0.setContent(html_651a13761f9ae45a16d51df0133fd233);
+            
+        
+
+        circle_marker_abe775d4cd604debc71c1296e01f5565.bindPopup(popup_07d1b3ba53f16c369a6532a8bb3bc0b0)
+        ;
+
+        
+    
+    
+            var circle_marker_f14d3b2aa247fe0518fef58b7ba8fe75 = L.circleMarker(
+                [1.3691, 103.8454],
+                {"bubblingMouseEvents": true, "color": "#feb24c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb24c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.965814957414538, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e5071e998d40811bdcad5386097b5e96 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_18c5ae63e12aa17d39abf0209abf5c51 = $(`<div id="html_18c5ae63e12aa17d39abf0209abf5c51" style="width: 100.0%; height: 100.0%;"><b>ANG MO KIO</b><br>Avg Resale Price: 6245.92 SGD/sqm<br>Avg Transactions: 1271<br>Avg Remaining Lease: 71.6 years<br>Median Remaining Lease: 69.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e5071e998d40811bdcad5386097b5e96.setContent(html_18c5ae63e12aa17d39abf0209abf5c51);
+            
+        
+
+        circle_marker_f14d3b2aa247fe0518fef58b7ba8fe75.bindPopup(popup_e5071e998d40811bdcad5386097b5e96)
+        ;
+
+        
+    
+    
+            var circle_marker_a7156f9a8e6849b2e137186e95456a1f = L.circleMarker(
+                [1.3691, 103.8454],
+                {"bubblingMouseEvents": true, "color": "#fec45f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec45f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.291681250729203, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_517aa9a99fd9043ab45227cb1d40cbc9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_81bfea51be517b57fd9cfc8c43460fb0 = $(`<div id="html_81bfea51be517b57fd9cfc8c43460fb0" style="width: 100.0%; height: 100.0%;"><b>ANG MO KIO</b><br>Avg Resale Price: 5943.51 SGD/sqm<br>Avg Transactions: 125<br>Avg Remaining Lease: 67.1 years<br>Median Remaining Lease: 70.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_517aa9a99fd9043ab45227cb1d40cbc9.setContent(html_81bfea51be517b57fd9cfc8c43460fb0);
+            
+        
+
+        circle_marker_a7156f9a8e6849b2e137186e95456a1f.bindPopup(popup_517aa9a99fd9043ab45227cb1d40cbc9)
+        ;
+
+        
+    
+    
+            var circle_marker_cb5e53f9bc7955d3c86b0329e037c1a5 = L.circleMarker(
+                [1.3244, 103.9301],
+                {"bubblingMouseEvents": true, "color": "#fecf6b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fecf6b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.340683700851709, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_db55ba57e8c7c71b63b728f7ceb22ac6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c89d5a034934f26ad3658f64d7305b8f = $(`<div id="html_c89d5a034934f26ad3658f64d7305b8f" style="width: 100.0%; height: 100.0%;"><b>BEDOK</b><br>Avg Resale Price: 5743.94 SGD/sqm<br>Avg Transactions: 146<br>Avg Remaining Lease: 65.6 years<br>Median Remaining Lease: 62.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_db55ba57e8c7c71b63b728f7ceb22ac6.setContent(html_c89d5a034934f26ad3658f64d7305b8f);
+            
+        
+
+        circle_marker_cb5e53f9bc7955d3c86b0329e037c1a5.bindPopup(popup_db55ba57e8c7c71b63b728f7ceb22ac6)
+        ;
+
+        
+    
+    
+            var circle_marker_319b0e91a482b0af3800067d1e09e215 = L.circleMarker(
+                [1.3244, 103.9301],
+                {"bubblingMouseEvents": true, "color": "#ffec9d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffec9d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.446855676117139, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3091faa03cd547a404ca141927c70ea6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b12c0635afe6922ddfb18f168352919a = $(`<div id="html_b12c0635afe6922ddfb18f168352919a" style="width: 100.0%; height: 100.0%;"><b>BEDOK</b><br>Avg Resale Price: 4959.06 SGD/sqm<br>Avg Transactions: 4477<br>Avg Remaining Lease: 59.2 years<br>Median Remaining Lease: 57.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_3091faa03cd547a404ca141927c70ea6.setContent(html_b12c0635afe6922ddfb18f168352919a);
+            
+        
+
+        circle_marker_319b0e91a482b0af3800067d1e09e215.bindPopup(popup_3091faa03cd547a404ca141927c70ea6)
+        ;
+
+        
+    
+    
+            var circle_marker_4a1ecd8d4057530bbdbd7d99a955d276 = L.circleMarker(
+                [1.3244, 103.9301],
+                {"bubblingMouseEvents": true, "color": "#fede82", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fede82", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.703768521759422, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_756189a16aa279658cf922eeb98c21d6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9ebf2f3e8b5cac97854ce7b468bddbb0 = $(`<div id="html_9ebf2f3e8b5cac97854ce7b468bddbb0" style="width: 100.0%; height: 100.0%;"><b>BEDOK</b><br>Avg Resale Price: 5398.68 SGD/sqm<br>Avg Transactions: 3730<br>Avg Remaining Lease: 67.1 years<br>Median Remaining Lease: 61.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_756189a16aa279658cf922eeb98c21d6.setContent(html_9ebf2f3e8b5cac97854ce7b468bddbb0);
+            
+        
+
+        circle_marker_4a1ecd8d4057530bbdbd7d99a955d276.bindPopup(popup_756189a16aa279658cf922eeb98c21d6)
+        ;
+
+        
+    
+    
+            var circle_marker_04e5268e01c55e908992b004f6969662 = L.circleMarker(
+                [1.3244, 103.9301],
+                {"bubblingMouseEvents": true, "color": "#fee085", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee085", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.690234511725587, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_cb2102f969fe902f0e8e7c3ea8d4ade4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7d61e8dc5378ae8b8e6e82673a4ca7eb = $(`<div id="html_7d61e8dc5378ae8b8e6e82673a4ca7eb" style="width: 100.0%; height: 100.0%;"><b>BEDOK</b><br>Avg Resale Price: 5318.58 SGD/sqm<br>Avg Transactions: 2010<br>Avg Remaining Lease: 65.9 years<br>Median Remaining Lease: 62.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_cb2102f969fe902f0e8e7c3ea8d4ade4.setContent(html_7d61e8dc5378ae8b8e6e82673a4ca7eb);
+            
+        
+
+        circle_marker_04e5268e01c55e908992b004f6969662.bindPopup(popup_cb2102f969fe902f0e8e7c3ea8d4ade4)
+        ;
+
+        
+    
+    
+            var circle_marker_abd94f3e1d57e31e444c089d3406bc2d = L.circleMarker(
+                [1.3244, 103.9301],
+                {"bubblingMouseEvents": true, "color": "#fedb7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedb7a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.264729903161825, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e730bc2d22bef799c6bb0ec64f067e28 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c64fadd42c02d89ba8cf587afde04f22 = $(`<div id="html_c64fadd42c02d89ba8cf587afde04f22" style="width: 100.0%; height: 100.0%;"><b>BEDOK</b><br>Avg Resale Price: 5516.41 SGD/sqm<br>Avg Transactions: 542<br>Avg Remaining Lease: 67.9 years<br>Median Remaining Lease: 67.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e730bc2d22bef799c6bb0ec64f067e28.setContent(html_c64fadd42c02d89ba8cf587afde04f22);
+            
+        
+
+        circle_marker_abd94f3e1d57e31e444c089d3406bc2d.bindPopup(popup_e730bc2d22bef799c6bb0ec64f067e28)
+        ;
+
+        
+    
+    
+            var circle_marker_bc22c32b4f2d15d292e03af554e29763 = L.circleMarker(
+                [1.3509, 103.8485],
+                {"bubblingMouseEvents": true, "color": "#feb651", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb651", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.956714502391787, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f7e38346dd196c0de4a8bf887a3f11a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1810849431c550bffbe3f0fcd90e60d1 = $(`<div id="html_1810849431c550bffbe3f0fcd90e60d1" style="width: 100.0%; height: 100.0%;"><b>BISHAN</b><br>Avg Resale Price: 6173.21 SGD/sqm<br>Avg Transactions: 410<br>Avg Remaining Lease: 61.4 years<br>Median Remaining Lease: 62.8 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_f7e38346dd196c0de4a8bf887a3f11a3.setContent(html_1810849431c550bffbe3f0fcd90e60d1);
+            
+        
+
+        circle_marker_bc22c32b4f2d15d292e03af554e29763.bindPopup(popup_f7e38346dd196c0de4a8bf887a3f11a3)
+        ;
+
+        
+    
+    
+            var circle_marker_6eb3400432d318fd008271f80d28f8ac = L.circleMarker(
+                [1.3509, 103.8485],
+                {"bubblingMouseEvents": true, "color": "#feaf4b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feaf4b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.148874110372185, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_d63300b8f15ef21ed88fb40f696b8e33 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d477c9e8945faeddefc8541fec96ae21 = $(`<div id="html_d477c9e8945faeddefc8541fec96ae21" style="width: 100.0%; height: 100.0%;"><b>BISHAN</b><br>Avg Resale Price: 6288.22 SGD/sqm<br>Avg Transactions: 1778<br>Avg Remaining Lease: 68.5 years<br>Median Remaining Lease: 67.8 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_d63300b8f15ef21ed88fb40f696b8e33.setContent(html_d477c9e8945faeddefc8541fec96ae21);
+            
+        
+
+        circle_marker_6eb3400432d318fd008271f80d28f8ac.bindPopup(popup_d63300b8f15ef21ed88fb40f696b8e33)
+        ;
+
+        
+    
+    
+            var circle_marker_29d7ee6665ff9d8d4bb8bf40522b7642 = L.circleMarker(
+                [1.3509, 103.8485],
+                {"bubblingMouseEvents": true, "color": "#fd933f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd933f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.583129156457823, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_45a2d61b41abf9f57a77f3c41910f2d2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f15ffcde48400ff312807845ba966afb = $(`<div id="html_f15ffcde48400ff312807845ba966afb" style="width: 100.0%; height: 100.0%;"><b>BISHAN</b><br>Avg Resale Price: 6784.73 SGD/sqm<br>Avg Transactions: 1107<br>Avg Remaining Lease: 70.3 years<br>Median Remaining Lease: 67.2 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_45a2d61b41abf9f57a77f3c41910f2d2.setContent(html_f15ffcde48400ff312807845ba966afb);
+            
+        
+
+        circle_marker_29d7ee6665ff9d8d4bb8bf40522b7642.bindPopup(popup_45a2d61b41abf9f57a77f3c41910f2d2)
+        ;
+
+        
+    
+    
+            var circle_marker_eb38d0e323926dd8b30508f991802f8d = L.circleMarker(
+                [1.3509, 103.8485],
+                {"bubblingMouseEvents": true, "color": "#fd9e43", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9e43", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.879710652199277, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b9e9ca81c20d7c117e13a5335cbdc90f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_818bf85c71c88b1a9297ebfdb5d16c0f = $(`<div id="html_818bf85c71c88b1a9297ebfdb5d16c0f" style="width: 100.0%; height: 100.0%;"><b>BISHAN</b><br>Avg Resale Price: 6608.53 SGD/sqm<br>Avg Transactions: 377<br>Avg Remaining Lease: 68.0 years<br>Median Remaining Lease: 67.9 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_b9e9ca81c20d7c117e13a5335cbdc90f.setContent(html_818bf85c71c88b1a9297ebfdb5d16c0f);
+            
+        
+
+        circle_marker_eb38d0e323926dd8b30508f991802f8d.bindPopup(popup_b9e9ca81c20d7c117e13a5335cbdc90f)
+        ;
+
+        
+    
+    
+            var circle_marker_efc10519c75d5e1ea0a5a345d9b3c3a8 = L.circleMarker(
+                [1.3509, 103.8485],
+                {"bubblingMouseEvents": true, "color": "#febb56", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febb56", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.030334850075837, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_23d3e60bd75642b4cec880f0af443077 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_91cf4ff7d5e10f98ebafb7670935c2aa = $(`<div id="html_91cf4ff7d5e10f98ebafb7670935c2aa" style="width: 100.0%; height: 100.0%;"><b>BISHAN</b><br>Avg Resale Price: 6082.07 SGD/sqm<br>Avg Transactions: 13<br>Avg Remaining Lease: 65.4 years<br>Median Remaining Lease: 65.2 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_23d3e60bd75642b4cec880f0af443077.setContent(html_91cf4ff7d5e10f98ebafb7670935c2aa);
+            
+        
+
+        circle_marker_efc10519c75d5e1ea0a5a345d9b3c3a8.bindPopup(popup_23d3e60bd75642b4cec880f0af443077)
+        ;
+
+        
+    
+    
+            var circle_marker_6b64930744fa283342acc68b25f6b29f = L.circleMarker(
+                [1.3496, 103.7499],
+                {"bubblingMouseEvents": true, "color": "#f33b25", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f33b25", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5343600513359, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_d1e4b9bf2785102c6f5fe71c7c36e97b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c13869aa9301a638fa559378b851a82a = $(`<div id="html_c13869aa9301a638fa559378b851a82a" style="width: 100.0%; height: 100.0%;"><b>BUKIT BATOK</b><br>Avg Resale Price: 7814.45 SGD/sqm<br>Avg Transactions: 229<br>Avg Remaining Lease: 94.3 years<br>Median Remaining Lease: 94.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_d1e4b9bf2785102c6f5fe71c7c36e97b.setContent(html_c13869aa9301a638fa559378b851a82a);
+            
+        
+
+        circle_marker_6b64930744fa283342acc68b25f6b29f.bindPopup(popup_d1e4b9bf2785102c6f5fe71c7c36e97b)
+        ;
+
+        
+    
+    
+            var circle_marker_b24bbca01b2ad7199a421e7c285a5381 = L.circleMarker(
+                [1.3496, 103.7499],
+                {"bubblingMouseEvents": true, "color": "#ffeea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeea3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.010967215027419, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_c5acb9d97f3f1fb261d5d3ed8507ceff = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b36c1a61643e6889c693524b20a98a0 = $(`<div id="html_4b36c1a61643e6889c693524b20a98a0" style="width: 100.0%; height: 100.0%;"><b>BUKIT BATOK</b><br>Avg Resale Price: 4870.13 SGD/sqm<br>Avg Transactions: 2576<br>Avg Remaining Lease: 67.6 years<br>Median Remaining Lease: 64.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_c5acb9d97f3f1fb261d5d3ed8507ceff.setContent(html_4b36c1a61643e6889c693524b20a98a0);
+            
+        
+
+        circle_marker_b24bbca01b2ad7199a421e7c285a5381.bindPopup(popup_c5acb9d97f3f1fb261d5d3ed8507ceff)
+        ;
+
+        
+    
+    
+            var circle_marker_e937613e540cc6ec582a8db52ce19c81 = L.circleMarker(
+                [1.3496, 103.7499],
+                {"bubblingMouseEvents": true, "color": "#fee38b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee38b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.51009217127523, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3ef8afe80b3dde4bc3564108cc6297ce = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_36de1353134dda49b37e3739a3aa6aa2 = $(`<div id="html_36de1353134dda49b37e3739a3aa6aa2" style="width: 100.0%; height: 100.0%;"><b>BUKIT BATOK</b><br>Avg Resale Price: 5238.03 SGD/sqm<br>Avg Transactions: 3647<br>Avg Remaining Lease: 76.3 years<br>Median Remaining Lease: 72.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_3ef8afe80b3dde4bc3564108cc6297ce.setContent(html_36de1353134dda49b37e3739a3aa6aa2);
+            
+        
+
+        circle_marker_e937613e540cc6ec582a8db52ce19c81.bindPopup(popup_3ef8afe80b3dde4bc3564108cc6297ce)
+        ;
+
+        
+    
+    
+            var circle_marker_9e7ef6b411e17f7830780ecabf800ed4 = L.circleMarker(
+                [1.3496, 103.7499],
+                {"bubblingMouseEvents": true, "color": "#fed976", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed976", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.357834558394586, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_c959eb4a077ff54bede70721f9051ea0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4cfe87d52f8b5301d6ed282aa07c8920 = $(`<div id="html_4cfe87d52f8b5301d6ed282aa07c8920" style="width: 100.0%; height: 100.0%;"><b>BUKIT BATOK</b><br>Avg Resale Price: 5580.76 SGD/sqm<br>Avg Transactions: 1439<br>Avg Remaining Lease: 80.1 years<br>Median Remaining Lease: 80.0 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_c959eb4a077ff54bede70721f9051ea0.setContent(html_4cfe87d52f8b5301d6ed282aa07c8920);
+            
+        
+
+        circle_marker_9e7ef6b411e17f7830780ecabf800ed4.bindPopup(popup_c959eb4a077ff54bede70721f9051ea0)
+        ;
+
+        
+    
+    
+            var circle_marker_19fb13cbe25caff43f6a3fa867dd41cd = L.circleMarker(
+                [1.3496, 103.7499],
+                {"bubblingMouseEvents": true, "color": "#ffefa5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffefa5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.556411153891029, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_5ee901722a78ed0e15645f30f80fc7f8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6de7c97fe733110c165ad7ced76fbbf6 = $(`<div id="html_6de7c97fe733110c165ad7ced76fbbf6" style="width: 100.0%; height: 100.0%;"><b>BUKIT BATOK</b><br>Avg Resale Price: 4830.56 SGD/sqm<br>Avg Transactions: 667<br>Avg Remaining Lease: 67.3 years<br>Median Remaining Lease: 65.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_5ee901722a78ed0e15645f30f80fc7f8.setContent(html_6de7c97fe733110c165ad7ced76fbbf6);
+            
+        
+
+        circle_marker_19fb13cbe25caff43f6a3fa867dd41cd.bindPopup(popup_5ee901722a78ed0e15645f30f80fc7f8)
+        ;
+
+        
+    
+    
+            var circle_marker_fde380fc63c04bf8a883e7561170835e = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#fd9740", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9740", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.179675650449189, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_90b0061d09ea8eed508effe2c2e805d1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b06e23ee3bc142917b50e43d32a495af = $(`<div id="html_b06e23ee3bc142917b50e43d32a495af" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 6727.34 SGD/sqm<br>Avg Transactions: 77<br>Avg Remaining Lease: 53.3 years<br>Median Remaining Lease: 53.3 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_90b0061d09ea8eed508effe2c2e805d1.setContent(html_b06e23ee3bc142917b50e43d32a495af);
+            
+        
+
+        circle_marker_fde380fc63c04bf8a883e7561170835e.bindPopup(popup_90b0061d09ea8eed508effe2c2e805d1)
+        ;
+
+        
+    
+    
+            var circle_marker_207aed400b10b9686245a3593cac1ed0 = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#feb34d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb34d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.567028351417571, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b6de47788b064571c7d8f2f5b9710ac4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_847d4233280b723805d8b4eda3bae72a = $(`<div id="html_847d4233280b723805d8b4eda3bae72a" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 6234.87 SGD/sqm<br>Avg Transactions: 243<br>Avg Remaining Lease: 55.4 years<br>Median Remaining Lease: 51.0 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b6de47788b064571c7d8f2f5b9710ac4.setContent(html_847d4233280b723805d8b4eda3bae72a);
+            
+        
+
+        circle_marker_207aed400b10b9686245a3593cac1ed0.bindPopup(popup_b6de47788b064571c7d8f2f5b9710ac4)
+        ;
+
+        
+    
+    
+            var circle_marker_13070a239a15e9a5fbaeb209e3a37cd6 = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#fea747", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea747", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.638665266596663, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_45653311f68ff159d5a8cd82606df118 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d7d9450ed988205fa8111ab146f8dbf3 = $(`<div id="html_d7d9450ed988205fa8111ab146f8dbf3" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 6425.55 SGD/sqm<br>Avg Transactions: 2845<br>Avg Remaining Lease: 62.1 years<br>Median Remaining Lease: 55.4 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_45653311f68ff159d5a8cd82606df118.setContent(html_d7d9450ed988205fa8111ab146f8dbf3);
+            
+        
+
+        circle_marker_13070a239a15e9a5fbaeb209e3a37cd6.bindPopup(popup_45653311f68ff159d5a8cd82606df118)
+        ;
+
+        
+    
+    
+            var circle_marker_863ae8cb9f24f7f9c075fe9fb963bd8a = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#f13824", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f13824", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.25469606813674, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_89f33b2132f6648d89f6db5f216dc43b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_29232aa63072f1d2ef11ac12b9ee68fa = $(`<div id="html_29232aa63072f1d2ef11ac12b9ee68fa" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 7866.14 SGD/sqm<br>Avg Transactions: 3109<br>Avg Remaining Lease: 79.2 years<br>Median Remaining Lease: 82.6 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_89f33b2132f6648d89f6db5f216dc43b.setContent(html_29232aa63072f1d2ef11ac12b9ee68fa);
+            
+        
+
+        circle_marker_863ae8cb9f24f7f9c075fe9fb963bd8a.bindPopup(popup_89f33b2132f6648d89f6db5f216dc43b)
+        ;
+
+        
+    
+    
+            var circle_marker_91dd2a5db40db157370da58d583591ae = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#fd7a37", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd7a37", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.011200560028001, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_28281c5a4cf918b2a8eaef7b6406092c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3ddf4df9a0dbf1c7e332c8393909af0c = $(`<div id="html_3ddf4df9a0dbf1c7e332c8393909af0c" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 7105.42 SGD/sqm<br>Avg Transactions: 1719<br>Avg Remaining Lease: 72.6 years<br>Median Remaining Lease: 76.9 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_28281c5a4cf918b2a8eaef7b6406092c.setContent(html_3ddf4df9a0dbf1c7e332c8393909af0c);
+            
+        
+
+        circle_marker_91dd2a5db40db157370da58d583591ae.bindPopup(popup_28281c5a4cf918b2a8eaef7b6406092c)
+        ;
+
+        
+    
+    
+            var circle_marker_666976e2d8a4f6a4cb62568b9000a625 = L.circleMarker(
+                [1.2777, 103.8203],
+                {"bubblingMouseEvents": true, "color": "#ffeda0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeda0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.007000350017501, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_c170ba1d36a4a1aa9b6d575aa33aa518 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_68781e30baf9f27317e44bd260522bba = $(`<div id="html_68781e30baf9f27317e44bd260522bba" style="width: 100.0%; height: 100.0%;"><b>BUKIT MERAH</b><br>Avg Resale Price: 4900.21 SGD/sqm<br>Avg Transactions: 3<br>Avg Remaining Lease: 57.6 years<br>Median Remaining Lease: 56.8 years <br>Room Types: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_c170ba1d36a4a1aa9b6d575aa33aa518.setContent(html_68781e30baf9f27317e44bd260522bba);
+            
+        
+
+        circle_marker_666976e2d8a4f6a4cb62568b9000a625.bindPopup(popup_c170ba1d36a4a1aa9b6d575aa33aa518)
+        ;
+
+        
+    
+    
+            var circle_marker_def3312f19ccf4ca3ff8676fac1f0b4f = L.circleMarker(
+                [1.3784, 103.7633],
+                {"bubblingMouseEvents": true, "color": "#fec35e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec35e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.317349200793373, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_22d12c690b07cdbbc69cb58f58a48521 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5bc700d255ec3222f4d8a18b10d768a7 = $(`<div id="html_5bc700d255ec3222f4d8a18b10d768a7" style="width: 100.0%; height: 100.0%;"><b>BUKIT PANJANG</b><br>Avg Resale Price: 5949.76 SGD/sqm<br>Avg Transactions: 136<br>Avg Remaining Lease: 92.3 years<br>Median Remaining Lease: 92.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_22d12c690b07cdbbc69cb58f58a48521.setContent(html_5bc700d255ec3222f4d8a18b10d768a7);
+            
+        
+
+        circle_marker_def3312f19ccf4ca3ff8676fac1f0b4f.bindPopup(popup_22d12c690b07cdbbc69cb58f58a48521)
+        ;
+
+        
+    
+    
+            var circle_marker_f0afd826bfdf2e7e95df6f1d392a7a84 = L.circleMarker(
+                [1.3784, 103.7633],
+                {"bubblingMouseEvents": true, "color": "#ffec9d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffec9d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.114105705285264, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_91f059faae6876dd9626c5754f4a9450 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e41fb70cecb4794da272bf8fdcac7509 = $(`<div id="html_e41fb70cecb4794da272bf8fdcac7509" style="width: 100.0%; height: 100.0%;"><b>BUKIT PANJANG</b><br>Avg Resale Price: 4952.74 SGD/sqm<br>Avg Transactions: 906<br>Avg Remaining Lease: 77.4 years<br>Median Remaining Lease: 69.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_91f059faae6876dd9626c5754f4a9450.setContent(html_e41fb70cecb4794da272bf8fdcac7509);
+            
+        
+
+        circle_marker_f0afd826bfdf2e7e95df6f1d392a7a84.bindPopup(popup_91f059faae6876dd9626c5754f4a9450)
+        ;
+
+        
+    
+    
+            var circle_marker_f8482b1f2b51d25e1ef29d3adf176558 = L.circleMarker(
+                [1.3784, 103.7633],
+                {"bubblingMouseEvents": true, "color": "#fff1ab", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff1ab", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.101738420254346, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b12fa01e0bada062dca0e9480af16b8b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_38b32b4d545f51cc37eed96cb7b171a8 = $(`<div id="html_38b32b4d545f51cc37eed96cb7b171a8" style="width: 100.0%; height: 100.0%;"><b>BUKIT PANJANG</b><br>Avg Resale Price: 4735.43 SGD/sqm<br>Avg Transactions: 3472<br>Avg Remaining Lease: 80.2 years<br>Median Remaining Lease: 79.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b12fa01e0bada062dca0e9480af16b8b.setContent(html_38b32b4d545f51cc37eed96cb7b171a8);
+            
+        
+
+        circle_marker_f8482b1f2b51d25e1ef29d3adf176558.bindPopup(popup_b12fa01e0bada062dca0e9480af16b8b)
+        ;
+
+        
+    
+    
+            var circle_marker_ed46dc84ecce799e10f46f81bf622798 = L.circleMarker(
+                [1.3784, 103.7633],
+                {"bubblingMouseEvents": true, "color": "#ffefa4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffefa4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.196593162991483, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f576a8b5bdb0a3f71e002970d9a04c7c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1f27c6eb7ed3748e45e8e549ca3608e1 = $(`<div id="html_1f27c6eb7ed3748e45e8e549ca3608e1" style="width: 100.0%; height: 100.0%;"><b>BUKIT PANJANG</b><br>Avg Resale Price: 4836.33 SGD/sqm<br>Avg Transactions: 2227<br>Avg Remaining Lease: 79.2 years<br>Median Remaining Lease: 78.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f576a8b5bdb0a3f71e002970d9a04c7c.setContent(html_1f27c6eb7ed3748e45e8e549ca3608e1);
+            
+        
+
+        circle_marker_ed46dc84ecce799e10f46f81bf622798.bindPopup(popup_f576a8b5bdb0a3f71e002970d9a04c7c)
+        ;
+
+        
+    
+    
+            var circle_marker_56ff4f4af7d778512cc15a3aac100ffe = L.circleMarker(
+                [1.3784, 103.7633],
+                {"bubblingMouseEvents": true, "color": "#ffec9f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffec9f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.806090304515226, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a4abea7a95a39d93088ec69543bb814e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_86860881bca70916620ea5b80f1b04ce = $(`<div id="html_86860881bca70916620ea5b80f1b04ce" style="width: 100.0%; height: 100.0%;"><b>BUKIT PANJANG</b><br>Avg Resale Price: 4928.74 SGD/sqm<br>Avg Transactions: 774<br>Avg Remaining Lease: 74.4 years<br>Median Remaining Lease: 76.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a4abea7a95a39d93088ec69543bb814e.setContent(html_86860881bca70916620ea5b80f1b04ce);
+            
+        
+
+        circle_marker_56ff4f4af7d778512cc15a3aac100ffe.bindPopup(popup_a4abea7a95a39d93088ec69543bb814e)
+        ;
+
+        
+    
+    
+            var circle_marker_329f1da3bfcc779f80671a51ccb21c7b = L.circleMarker(
+                [1.3294, 103.8021],
+                {"bubblingMouseEvents": true, "color": "#feb34d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb34d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.219344300548361, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_78466e4dab0e7da977b8de703786f851 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ec403373125495ddc94b0a1c70acfcea = $(`<div id="html_ec403373125495ddc94b0a1c70acfcea" style="width: 100.0%; height: 100.0%;"><b>BUKIT TIMAH</b><br>Avg Resale Price: 6215.67 SGD/sqm<br>Avg Transactions: 94<br>Avg Remaining Lease: 53.7 years<br>Median Remaining Lease: 53.3 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_78466e4dab0e7da977b8de703786f851.setContent(html_ec403373125495ddc94b0a1c70acfcea);
+            
+        
+
+        circle_marker_329f1da3bfcc779f80671a51ccb21c7b.bindPopup(popup_78466e4dab0e7da977b8de703786f851)
+        ;
+
+        
+    
+    
+            var circle_marker_446408aebfff3208cc4402cd25d91ea1 = L.circleMarker(
+                [1.3294, 103.8021],
+                {"bubblingMouseEvents": true, "color": "#fd9640", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9640", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.45035585112589, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e34ef562a60a285e2f3969f7d96ea708 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1b429746ff3264e06fdbb5e4f6863eff = $(`<div id="html_1b429746ff3264e06fdbb5e4f6863eff" style="width: 100.0%; height: 100.0%;"><b>BUKIT TIMAH</b><br>Avg Resale Price: 6751.35 SGD/sqm<br>Avg Transactions: 193<br>Avg Remaining Lease: 61.4 years<br>Median Remaining Lease: 64.8 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e34ef562a60a285e2f3969f7d96ea708.setContent(html_1b429746ff3264e06fdbb5e4f6863eff);
+            
+        
+
+        circle_marker_446408aebfff3208cc4402cd25d91ea1.bindPopup(popup_e34ef562a60a285e2f3969f7d96ea708)
+        ;
+
+        
+    
+    
+            var circle_marker_0cbd62c5d5f68d8b609d14224d46aed6 = L.circleMarker(
+                [1.3294, 103.8021],
+                {"bubblingMouseEvents": true, "color": "#fc6330", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc6330", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.280014000700035, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b941aa4f8c006c85bbc16fee63c40580 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f2a405166424e2b600ad79f274b0edb = $(`<div id="html_2f2a405166424e2b600ad79f274b0edb" style="width: 100.0%; height: 100.0%;"><b>BUKIT TIMAH</b><br>Avg Resale Price: 7354.05 SGD/sqm<br>Avg Transactions: 120<br>Avg Remaining Lease: 63.4 years<br>Median Remaining Lease: 65.8 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b941aa4f8c006c85bbc16fee63c40580.setContent(html_2f2a405166424e2b600ad79f274b0edb);
+            
+        
+
+        circle_marker_0cbd62c5d5f68d8b609d14224d46aed6.bindPopup(popup_b941aa4f8c006c85bbc16fee63c40580)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1078d089d70e6c6fca8e35898551e0 = L.circleMarker(
+                [1.3294, 103.8021],
+                {"bubblingMouseEvents": true, "color": "#fc6a32", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc6a32", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.245012250612531, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_02d345b5081a6ec59c4f2971e35c21b7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c77b209ab9bc7f48c5f1c355d9a4b7ea = $(`<div id="html_c77b209ab9bc7f48c5f1c355d9a4b7ea" style="width: 100.0%; height: 100.0%;"><b>BUKIT TIMAH</b><br>Avg Resale Price: 7281.42 SGD/sqm<br>Avg Transactions: 105<br>Avg Remaining Lease: 67.1 years<br>Median Remaining Lease: 67.0 years <br>Room Types: ['3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_02d345b5081a6ec59c4f2971e35c21b7.setContent(html_c77b209ab9bc7f48c5f1c355d9a4b7ea);
+            
+        
+
+        circle_marker_7b1078d089d70e6c6fca8e35898551e0.bindPopup(popup_02d345b5081a6ec59c4f2971e35c21b7)
+        ;
+
+        
+    
+    
+            var circle_marker_47562826589327b38311bc9f651120b3 = L.circleMarker(
+                [1.2905, 103.851],
+                {"bubblingMouseEvents": true, "color": "#fede80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fede80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.151674250379186, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b2b68a2d9207cc522a15acf93c74e385 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3cf2ab73a95d4b535131377fc85fac9d = $(`<div id="html_3cf2ab73a95d4b535131377fc85fac9d" style="width: 100.0%; height: 100.0%;"><b>CENTRAL AREA</b><br>Avg Resale Price: 5400.19 SGD/sqm<br>Avg Transactions: 65<br>Avg Remaining Lease: 54.2 years<br>Median Remaining Lease: 53.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b2b68a2d9207cc522a15acf93c74e385.setContent(html_3cf2ab73a95d4b535131377fc85fac9d);
+            
+        
+
+        circle_marker_47562826589327b38311bc9f651120b3.bindPopup(popup_b2b68a2d9207cc522a15acf93c74e385)
+        ;
+
+        
+    
+    
+            var circle_marker_877a94f7227f4b0695b092c4ec03b145 = L.circleMarker(
+                [1.2905, 103.851],
+                {"bubblingMouseEvents": true, "color": "#fd933f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd933f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.586746003966865, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3a5e7af3e2f6dec2d2b636f030765137 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1681e19fc914065a96b8691c553c6047 = $(`<div id="html_1681e19fc914065a96b8691c553c6047" style="width: 100.0%; height: 100.0%;"><b>CENTRAL AREA</b><br>Avg Resale Price: 6784.41 SGD/sqm<br>Avg Transactions: 680<br>Avg Remaining Lease: 56.6 years<br>Median Remaining Lease: 56.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_3a5e7af3e2f6dec2d2b636f030765137.setContent(html_1681e19fc914065a96b8691c553c6047);
+            
+        
+
+        circle_marker_877a94f7227f4b0695b092c4ec03b145.bindPopup(popup_3a5e7af3e2f6dec2d2b636f030765137)
+        ;
+
+        
+    
+    
+            var circle_marker_6138b90da0023904c331b82895e8e596 = L.circleMarker(
+                [1.2905, 103.851],
+                {"bubblingMouseEvents": true, "color": "#aa0026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aa0026", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.53774355384436, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_9d78846d7b877a2aa37b29914e3a137d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_859a919ee92baee7a0caea974ab80ed8 = $(`<div id="html_859a919ee92baee7a0caea974ab80ed8" style="width: 100.0%; height: 100.0%;"><b>CENTRAL AREA</b><br>Avg Resale Price: 9106.50 SGD/sqm<br>Avg Transactions: 659<br>Avg Remaining Lease: 76.7 years<br>Median Remaining Lease: 85.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_9d78846d7b877a2aa37b29914e3a137d.setContent(html_859a919ee92baee7a0caea974ab80ed8);
+            
+        
+
+        circle_marker_6138b90da0023904c331b82895e8e596.bindPopup(popup_9d78846d7b877a2aa37b29914e3a137d)
+        ;
+
+        
+    
+    
+            var circle_marker_0cd7a3a932a30f12628fbdb013113cee = L.circleMarker(
+                [1.2905, 103.851],
+                {"bubblingMouseEvents": true, "color": "#800026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.555361101388403, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_6d1325b7f4f4652501f5098542b35ee2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee7a4ba3300335eb3a87637b4fef5018 = $(`<div id="html_ee7a4ba3300335eb3a87637b4fef5018" style="width: 100.0%; height: 100.0%;"><b>CENTRAL AREA</b><br>Avg Resale Price: 9582.36 SGD/sqm<br>Avg Transactions: 238<br>Avg Remaining Lease: 85.1 years<br>Median Remaining Lease: 88.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_6d1325b7f4f4652501f5098542b35ee2.setContent(html_ee7a4ba3300335eb3a87637b4fef5018);
+            
+        
+
+        circle_marker_0cd7a3a932a30f12628fbdb013113cee.bindPopup(popup_6d1325b7f4f4652501f5098542b35ee2)
+        ;
+
+        
+    
+    
+            var circle_marker_d60ca2e79b809e635dfbb05113cc7743 = L.circleMarker(
+                [1.2905, 103.851],
+                {"bubblingMouseEvents": true, "color": "#fd7836", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd7836", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.004666900011667, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_6b6ac0bfe72ba428c193319e6929ca82 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3daaa08946fbe73e59e158b17d20f15e = $(`<div id="html_3daaa08946fbe73e59e158b17d20f15e" style="width: 100.0%; height: 100.0%;"><b>CENTRAL AREA</b><br>Avg Resale Price: 7131.03 SGD/sqm<br>Avg Transactions: 2<br>Avg Remaining Lease: 60.9 years<br>Median Remaining Lease: 60.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_6b6ac0bfe72ba428c193319e6929ca82.setContent(html_3daaa08946fbe73e59e158b17d20f15e);
+            
+        
+
+        circle_marker_d60ca2e79b809e635dfbb05113cc7743.bindPopup(popup_6b6ac0bfe72ba428c193319e6929ca82)
+        ;
+
+        
+    
+    
+            var circle_marker_4e2000bc34416a380f5f857c4420acb1 = L.circleMarker(
+                [1.3854, 103.7449],
+                {"bubblingMouseEvents": true, "color": "#fec965", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec965", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.200676700501692, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_29a198d8aa98dba1ca9c4d385a78e156 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6138eaaee58faf901ec76584a59c179e = $(`<div id="html_6138eaaee58faf901ec76584a59c179e" style="width: 100.0%; height: 100.0%;"><b>CHOA CHU KANG</b><br>Avg Resale Price: 5845.37 SGD/sqm<br>Avg Transactions: 86<br>Avg Remaining Lease: 91.8 years<br>Median Remaining Lease: 92.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_29a198d8aa98dba1ca9c4d385a78e156.setContent(html_6138eaaee58faf901ec76584a59c179e);
+            
+        
+
+        circle_marker_4e2000bc34416a380f5f857c4420acb1.bindPopup(popup_29a198d8aa98dba1ca9c4d385a78e156)
+        ;
+
+        
+    
+    
+            var circle_marker_30f60f6e403de66119027551206c149d = L.circleMarker(
+                [1.3854, 103.7449],
+                {"bubblingMouseEvents": true, "color": "#ffe998", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe998", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.442072103605181, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_7d22e1998e034791168314771d0d63c5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ba50cf8fe6e20a2eab0c53f46ce07fd2 = $(`<div id="html_ba50cf8fe6e20a2eab0c53f46ce07fd2" style="width: 100.0%; height: 100.0%;"><b>CHOA CHU KANG</b><br>Avg Resale Price: 5042.54 SGD/sqm<br>Avg Transactions: 618<br>Avg Remaining Lease: 79.3 years<br>Median Remaining Lease: 90.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_7d22e1998e034791168314771d0d63c5.setContent(html_ba50cf8fe6e20a2eab0c53f46ce07fd2);
+            
+        
+
+        circle_marker_30f60f6e403de66119027551206c149d.bindPopup(popup_7d22e1998e034791168314771d0d63c5)
+        ;
+
+        
+    
+    
+            var circle_marker_bffa49bf2137dbee01eba1483c897398 = L.circleMarker(
+                [1.3854, 103.7449],
+                {"bubblingMouseEvents": true, "color": "#fff9be", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff9be", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.745537276863843, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_028a054892f27aa5610ff8c169608957 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_547d91a1ed9d659ab6f9f7d72f0c7e8c = $(`<div id="html_547d91a1ed9d659ab6f9f7d72f0c7e8c" style="width: 100.0%; height: 100.0%;"><b>CHOA CHU KANG</b><br>Avg Resale Price: 4449.81 SGD/sqm<br>Avg Transactions: 4605<br>Avg Remaining Lease: 79.0 years<br>Median Remaining Lease: 76.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_028a054892f27aa5610ff8c169608957.setContent(html_547d91a1ed9d659ab6f9f7d72f0c7e8c);
+            
+        
+
+        circle_marker_bffa49bf2137dbee01eba1483c897398.bindPopup(popup_028a054892f27aa5610ff8c169608957)
+        ;
+
+        
+    
+    
+            var circle_marker_429974fb19039780700eec4320ccc9ec = L.circleMarker(
+                [1.3854, 103.7449],
+                {"bubblingMouseEvents": true, "color": "#fffbc2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbc2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.51837591879594, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_41810317f8f103982edb241daa357ebe = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8e1c46d8b231a935c12e7b69909e95e0 = $(`<div id="html_8e1c46d8b231a935c12e7b69909e95e0" style="width: 100.0%; height: 100.0%;"><b>CHOA CHU KANG</b><br>Avg Resale Price: 4389.47 SGD/sqm<br>Avg Transactions: 3222<br>Avg Remaining Lease: 79.5 years<br>Median Remaining Lease: 77.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_41810317f8f103982edb241daa357ebe.setContent(html_8e1c46d8b231a935c12e7b69909e95e0);
+            
+        
+
+        circle_marker_429974fb19039780700eec4320ccc9ec.bindPopup(popup_41810317f8f103982edb241daa357ebe)
+        ;
+
+        
+    
+    
+            var circle_marker_adb24d8e840356feaaa24717138a61d7 = L.circleMarker(
+                [1.3854, 103.7449],
+                {"bubblingMouseEvents": true, "color": "#fffcc4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffcc4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.221444405553611, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_2352afe88b37c1d60e7c43f83a5dafd8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_05d100952cc8ee924bc35cf7140e6056 = $(`<div id="html_05d100952cc8ee924bc35cf7140e6056" style="width: 100.0%; height: 100.0%;"><b>CHOA CHU KANG</b><br>Avg Resale Price: 4358.82 SGD/sqm<br>Avg Transactions: 952<br>Avg Remaining Lease: 73.0 years<br>Median Remaining Lease: 73.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_2352afe88b37c1d60e7c43f83a5dafd8.setContent(html_05d100952cc8ee924bc35cf7140e6056);
+            
+        
+
+        circle_marker_adb24d8e840356feaaa24717138a61d7.bindPopup(popup_2352afe88b37c1d60e7c43f83a5dafd8)
+        ;
+
+        
+    
+    
+            var circle_marker_ff07bf7b1f980739d176949400f23e3e = L.circleMarker(
+                [1.3151, 103.7655],
+                {"bubblingMouseEvents": true, "color": "#fd8c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.100338350250846, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_7de903ad0b8938339455843c4c6bd606 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1698e6bfbba5d4c3976982461509c2f1 = $(`<div id="html_1698e6bfbba5d4c3976982461509c2f1" style="width: 100.0%; height: 100.0%;"><b>CLEMENTI</b><br>Avg Resale Price: 6926.57 SGD/sqm<br>Avg Transactions: 43<br>Avg Remaining Lease: 83.7 years<br>Median Remaining Lease: 91.1 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_7de903ad0b8938339455843c4c6bd606.setContent(html_1698e6bfbba5d4c3976982461509c2f1);
+            
+        
+
+        circle_marker_ff07bf7b1f980739d176949400f23e3e.bindPopup(popup_7de903ad0b8938339455843c4c6bd606)
+        ;
+
+        
+    
+    
+            var circle_marker_be59f80d2c2d23b10ba2940bdf705255 = L.circleMarker(
+                [1.3151, 103.7655],
+                {"bubblingMouseEvents": true, "color": "#fedb7b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedb7b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.986582662466457, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_6ad8d5dfcde2da6642193ab812d0bc01 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4bde5692d28a366976280cd22b416f98 = $(`<div id="html_4bde5692d28a366976280cd22b416f98" style="width: 100.0%; height: 100.0%;"><b>CLEMENTI</b><br>Avg Resale Price: 5489.05 SGD/sqm<br>Avg Transactions: 2137<br>Avg Remaining Lease: 62.8 years<br>Median Remaining Lease: 58.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_6ad8d5dfcde2da6642193ab812d0bc01.setContent(html_4bde5692d28a366976280cd22b416f98);
+            
+        
+
+        circle_marker_be59f80d2c2d23b10ba2940bdf705255.bindPopup(popup_6ad8d5dfcde2da6642193ab812d0bc01)
+        ;
+
+        
+    
+    
+            var circle_marker_abbe6908d36478f5d6457e0e9e3bdfee = L.circleMarker(
+                [1.3151, 103.7655],
+                {"bubblingMouseEvents": true, "color": "#fd903d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd903d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.969198459922996, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e82a9fb03b99c1252acdf6e8eadd8896 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_03d45afd82358c96e1381f9a73b37711 = $(`<div id="html_03d45afd82358c96e1381f9a73b37711" style="width: 100.0%; height: 100.0%;"><b>CLEMENTI</b><br>Avg Resale Price: 6863.19 SGD/sqm<br>Avg Transactions: 1701<br>Avg Remaining Lease: 72.9 years<br>Median Remaining Lease: 63.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e82a9fb03b99c1252acdf6e8eadd8896.setContent(html_03d45afd82358c96e1381f9a73b37711);
+            
+        
+
+        circle_marker_abbe6908d36478f5d6457e0e9e3bdfee.bindPopup(popup_e82a9fb03b99c1252acdf6e8eadd8896)
+        ;
+
+        
+    
+    
+            var circle_marker_ae833ac491c3ed0b11a6fd43c0105c37 = L.circleMarker(
+                [1.3151, 103.7655],
+                {"bubblingMouseEvents": true, "color": "#fd933f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd933f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3884027534710075, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_0e885adc51aba7e0fabb702446a977c5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f9e4b0729941552e03aff758c7b1af6d = $(`<div id="html_f9e4b0729941552e03aff758c7b1af6d" style="width: 100.0%; height: 100.0%;"><b>CLEMENTI</b><br>Avg Resale Price: 6792.80 SGD/sqm<br>Avg Transactions: 595<br>Avg Remaining Lease: 71.7 years<br>Median Remaining Lease: 61.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_0e885adc51aba7e0fabb702446a977c5.setContent(html_f9e4b0729941552e03aff758c7b1af6d);
+            
+        
+
+        circle_marker_ae833ac491c3ed0b11a6fd43c0105c37.bindPopup(popup_0e885adc51aba7e0fabb702446a977c5)
+        ;
+
+        
+    
+    
+            var circle_marker_c4b050d72c4648eca516c4e1b9b4bcd2 = L.circleMarker(
+                [1.3151, 103.7655],
+                {"bubblingMouseEvents": true, "color": "#fec863", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec863", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.3523509508808775, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a3b9e4b75a5d6c45891ecc5e2e472494 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_73be8439138c3a79b6d3db7ce7b0feea = $(`<div id="html_73be8439138c3a79b6d3db7ce7b0feea" style="width: 100.0%; height: 100.0%;"><b>CLEMENTI</b><br>Avg Resale Price: 5881.03 SGD/sqm<br>Avg Transactions: 151<br>Avg Remaining Lease: 62.6 years<br>Median Remaining Lease: 62.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a3b9e4b75a5d6c45891ecc5e2e472494.setContent(html_73be8439138c3a79b6d3db7ce7b0feea);
+            
+        
+
+        circle_marker_c4b050d72c4648eca516c4e1b9b4bcd2.bindPopup(popup_a3b9e4b75a5d6c45891ecc5e2e472494)
+        ;
+
+        
+    
+    
+            var circle_marker_36ec42e2865462edb5c870bf0c2fcd0c = L.circleMarker(
+                [1.316, 103.8855],
+                {"bubblingMouseEvents": true, "color": "#fee38b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee38b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.382685800956715, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_76ba49eb646cc1c73fd72e26dd784b8a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_45e0ef111cd57ecaa61279055584c11f = $(`<div id="html_45e0ef111cd57ecaa61279055584c11f" style="width: 100.0%; height: 100.0%;"><b>GEYLANG</b><br>Avg Resale Price: 5246.22 SGD/sqm<br>Avg Transactions: 164<br>Avg Remaining Lease: 50.2 years<br>Median Remaining Lease: 48.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_76ba49eb646cc1c73fd72e26dd784b8a.setContent(html_45e0ef111cd57ecaa61279055584c11f);
+            
+        
+
+        circle_marker_36ec42e2865462edb5c870bf0c2fcd0c.bindPopup(popup_76ba49eb646cc1c73fd72e26dd784b8a)
+        ;
+
+        
+    
+    
+            var circle_marker_6f12d036db4ddfe318777f141b0fb4b9 = L.circleMarker(
+                [1.316, 103.8855],
+                {"bubblingMouseEvents": true, "color": "#fede82", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fede82", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.397269863493175, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_eb3421c8a1d42763dc365cddc8282061 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_839a152360bce68518cebdae6e261177 = $(`<div id="html_839a152360bce68518cebdae6e261177" style="width: 100.0%; height: 100.0%;"><b>GEYLANG</b><br>Avg Resale Price: 5398.39 SGD/sqm<br>Avg Transactions: 2313<br>Avg Remaining Lease: 56.7 years<br>Median Remaining Lease: 53.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_eb3421c8a1d42763dc365cddc8282061.setContent(html_839a152360bce68518cebdae6e261177);
+            
+        
+
+        circle_marker_6f12d036db4ddfe318777f141b0fb4b9.bindPopup(popup_eb3421c8a1d42763dc365cddc8282061)
+        ;
+
+        
+    
+    
+            var circle_marker_b38a1eb9b7eca470f1cfad9ae184dd3d = L.circleMarker(
+                [1.316, 103.8855],
+                {"bubblingMouseEvents": true, "color": "#fea546", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea546", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.300548360751371, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_40b4c284bb693c19ae326082fbbec0dc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1460e81b3704b3aa376b3779ebe5d1c6 = $(`<div id="html_1460e81b3704b3aa376b3779ebe5d1c6" style="width: 100.0%; height: 100.0%;"><b>GEYLANG</b><br>Avg Resale Price: 6476.67 SGD/sqm<br>Avg Transactions: 1843<br>Avg Remaining Lease: 71.5 years<br>Median Remaining Lease: 65.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_40b4c284bb693c19ae326082fbbec0dc.setContent(html_1460e81b3704b3aa376b3779ebe5d1c6);
+            
+        
+
+        circle_marker_b38a1eb9b7eca470f1cfad9ae184dd3d.bindPopup(popup_40b4c284bb693c19ae326082fbbec0dc)
+        ;
+
+        
+    
+    
+            var circle_marker_c6c076e2e6760e10d7fb9c4235d3ad0b = L.circleMarker(
+                [1.316, 103.8855],
+                {"bubblingMouseEvents": true, "color": "#febb56", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febb56", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.416404153541011, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_53ae8d1556429e5fbef3f833537e2737 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_02cc83d2ae924e5c36785f83596683c6 = $(`<div id="html_02cc83d2ae924e5c36785f83596683c6" style="width: 100.0%; height: 100.0%;"><b>GEYLANG</b><br>Avg Resale Price: 6074.99 SGD/sqm<br>Avg Transactions: 607<br>Avg Remaining Lease: 65.8 years<br>Median Remaining Lease: 63.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_53ae8d1556429e5fbef3f833537e2737.setContent(html_02cc83d2ae924e5c36785f83596683c6);
+            
+        
+
+        circle_marker_c6c076e2e6760e10d7fb9c4235d3ad0b.bindPopup(popup_53ae8d1556429e5fbef3f833537e2737)
+        ;
+
+        
+    
+    
+            var circle_marker_a019a7b1fd9b4236014b2be0f7d10d6b = L.circleMarker(
+                [1.316, 103.8855],
+                {"bubblingMouseEvents": true, "color": "#fed673", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed673", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.464356551160892, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_d7a29d4837997037ae8ac1e94dda4610 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_024cdb26f95cd5992871000f2fedcd93 = $(`<div id="html_024cdb26f95cd5992871000f2fedcd93" style="width: 100.0%; height: 100.0%;"><b>GEYLANG</b><br>Avg Resale Price: 5610.78 SGD/sqm<br>Avg Transactions: 199<br>Avg Remaining Lease: 64.4 years<br>Median Remaining Lease: 64.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_d7a29d4837997037ae8ac1e94dda4610.setContent(html_024cdb26f95cd5992871000f2fedcd93);
+            
+        
+
+        circle_marker_a019a7b1fd9b4236014b2be0f7d10d6b.bindPopup(popup_d7a29d4837997037ae8ac1e94dda4610)
+        ;
+
+        
+    
+    
+            var circle_marker_baa4e57be3b4b0628a83f30860d7b294 = L.circleMarker(
+                [1.3711, 103.8922],
+                {"bubblingMouseEvents": true, "color": "#fd7a37", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd7a37", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.3896861509742156, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_93ef448c5fb5d0b52fd381efc5d6cc58 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2dc5c84fe3b25ca6f9b97995571cad81 = $(`<div id="html_2dc5c84fe3b25ca6f9b97995571cad81" style="width: 100.0%; height: 100.0%;"><b>HOUGANG</b><br>Avg Resale Price: 7095.21 SGD/sqm<br>Avg Transactions: 167<br>Avg Remaining Lease: 92.9 years<br>Median Remaining Lease: 93.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_93ef448c5fb5d0b52fd381efc5d6cc58.setContent(html_2dc5c84fe3b25ca6f9b97995571cad81);
+            
+        
+
+        circle_marker_baa4e57be3b4b0628a83f30860d7b294.bindPopup(popup_93ef448c5fb5d0b52fd381efc5d6cc58)
+        ;
+
+        
+    
+    
+            var circle_marker_a06567f337c1e448e5440683b83ceb47 = L.circleMarker(
+                [1.3711, 103.8922],
+                {"bubblingMouseEvents": true, "color": "#ffe48d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe48d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.159257962898145, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4fbfec6a2d4877ed53515840e80ba19a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_38845b376d8de4cd81db0ded83b68723 = $(`<div id="html_38845b376d8de4cd81db0ded83b68723" style="width: 100.0%; height: 100.0%;"><b>HOUGANG</b><br>Avg Resale Price: 5198.77 SGD/sqm<br>Avg Transactions: 2211<br>Avg Remaining Lease: 68.0 years<br>Median Remaining Lease: 63.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4fbfec6a2d4877ed53515840e80ba19a.setContent(html_38845b376d8de4cd81db0ded83b68723);
+            
+        
+
+        circle_marker_a06567f337c1e448e5440683b83ceb47.bindPopup(popup_4fbfec6a2d4877ed53515840e80ba19a)
+        ;
+
+        
+    
+    
+            var circle_marker_64d678df1f3a482ed994208efe72e368 = L.circleMarker(
+                [1.3711, 103.8922],
+                {"bubblingMouseEvents": true, "color": "#ffe998", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe998", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.048885777622214, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f44435cc0e42649aee9168209c584033 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee3d421594a8acb9decddce64a0a0e63 = $(`<div id="html_ee3d421594a8acb9decddce64a0a0e63" style="width: 100.0%; height: 100.0%;"><b>HOUGANG</b><br>Avg Resale Price: 5038.12 SGD/sqm<br>Avg Transactions: 4735<br>Avg Remaining Lease: 75.2 years<br>Median Remaining Lease: 72.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f44435cc0e42649aee9168209c584033.setContent(html_ee3d421594a8acb9decddce64a0a0e63);
+            
+        
+
+        circle_marker_64d678df1f3a482ed994208efe72e368.bindPopup(popup_f44435cc0e42649aee9168209c584033)
+        ;
+
+        
+    
+    
+            var circle_marker_e8e3d1cb29e20a57465c5672a75ebd7e = L.circleMarker(
+                [1.3711, 103.8922],
+                {"bubblingMouseEvents": true, "color": "#ffe997", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe997", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.34826741337067, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_79b618461e6692cc9a468f42e4e891eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0426d786a41c92c809a4de918ea4072d = $(`<div id="html_0426d786a41c92c809a4de918ea4072d" style="width: 100.0%; height: 100.0%;"><b>HOUGANG</b><br>Avg Resale Price: 5061.44 SGD/sqm<br>Avg Transactions: 2292<br>Avg Remaining Lease: 75.4 years<br>Median Remaining Lease: 74.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_79b618461e6692cc9a468f42e4e891eb.setContent(html_0426d786a41c92c809a4de918ea4072d);
+            
+        
+
+        circle_marker_e8e3d1cb29e20a57465c5672a75ebd7e.bindPopup(popup_79b618461e6692cc9a468f42e4e891eb)
+        ;
+
+        
+    
+    
+            var circle_marker_631c2f4b03782a8e732c321250702316 = L.circleMarker(
+                [1.3711, 103.8922],
+                {"bubblingMouseEvents": true, "color": "#fee289", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee289", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5621281064053205, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4f826a83b2bbcf6a998e0c90383b1857 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1fb62e0eee6402b153be57a43e27e922 = $(`<div id="html_1fb62e0eee6402b153be57a43e27e922" style="width: 100.0%; height: 100.0%;"><b>HOUGANG</b><br>Avg Resale Price: 5268.19 SGD/sqm<br>Avg Transactions: 1098<br>Avg Remaining Lease: 69.0 years<br>Median Remaining Lease: 68.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4f826a83b2bbcf6a998e0c90383b1857.setContent(html_1fb62e0eee6402b153be57a43e27e922);
+            
+        
+
+        circle_marker_631c2f4b03782a8e732c321250702316.bindPopup(popup_4f826a83b2bbcf6a998e0c90383b1857)
+        ;
+
+        
+    
+    
+            var circle_marker_582724ce2d71c38c08058b0e33d648cd = L.circleMarker(
+                [1.3321, 103.743],
+                {"bubblingMouseEvents": true, "color": "#febe59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febe59", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.189009450472524, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_5951c0e665a40a053cc9832acd62f407 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2691c54060f5635963439f83fcce5a6f = $(`<div id="html_2691c54060f5635963439f83fcce5a6f" style="width: 100.0%; height: 100.0%;"><b>JURONG EAST</b><br>Avg Resale Price: 6030.27 SGD/sqm<br>Avg Transactions: 81<br>Avg Remaining Lease: 91.7 years<br>Median Remaining Lease: 92.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_5951c0e665a40a053cc9832acd62f407.setContent(html_2691c54060f5635963439f83fcce5a6f);
+            
+        
+
+        circle_marker_582724ce2d71c38c08058b0e33d648cd.bindPopup(popup_5951c0e665a40a053cc9832acd62f407)
+        ;
+
+        
+    
+    
+            var circle_marker_7aeb3c40fa63d360c5c2fe4af35155c6 = L.circleMarker(
+                [1.3321, 103.743],
+                {"bubblingMouseEvents": true, "color": "#fff1ab", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff1ab", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.439505308598763, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_107d9f9c4021b7e03e3b05bc2873351f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_152d4e795064bad1e0d58abc22eede82 = $(`<div id="html_152d4e795064bad1e0d58abc22eede82" style="width: 100.0%; height: 100.0%;"><b>JURONG EAST</b><br>Avg Resale Price: 4748.24 SGD/sqm<br>Avg Transactions: 1474<br>Avg Remaining Lease: 64.7 years<br>Median Remaining Lease: 61.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_107d9f9c4021b7e03e3b05bc2873351f.setContent(html_152d4e795064bad1e0d58abc22eede82);
+            
+        
+
+        circle_marker_7aeb3c40fa63d360c5c2fe4af35155c6.bindPopup(popup_107d9f9c4021b7e03e3b05bc2873351f)
+        ;
+
+        
+    
+    
+            var circle_marker_7dc560b26e2dce2d2a1181df6bc21609 = L.circleMarker(
+                [1.3321, 103.743],
+                {"bubblingMouseEvents": true, "color": "#fff2ac", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff2ac", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.972815307432039, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_eb47479bdfe3bf92d36f24728b95558b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_abf31e9b7eedbcb88326471274a9441e = $(`<div id="html_abf31e9b7eedbcb88326471274a9441e" style="width: 100.0%; height: 100.0%;"><b>JURONG EAST</b><br>Avg Resale Price: 4713.64 SGD/sqm<br>Avg Transactions: 1274<br>Avg Remaining Lease: 70.6 years<br>Median Remaining Lease: 64.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_eb47479bdfe3bf92d36f24728b95558b.setContent(html_abf31e9b7eedbcb88326471274a9441e);
+            
+        
+
+        circle_marker_7dc560b26e2dce2d2a1181df6bc21609.bindPopup(popup_eb47479bdfe3bf92d36f24728b95558b)
+        ;
+
+        
+    
+    
+            var circle_marker_4a5d20341210a0cf35b6421a223bb632 = L.circleMarker(
+                [1.3321, 103.743],
+                {"bubblingMouseEvents": true, "color": "#fff2ac", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff2ac", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3684517559211296, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_38a3370f4e7b8572cb2d771e50dfb5af = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_694ff4a69a65c7083cb0105fb632c9eb = $(`<div id="html_694ff4a69a65c7083cb0105fb632c9eb" style="width: 100.0%; height: 100.0%;"><b>JURONG EAST</b><br>Avg Resale Price: 4715.95 SGD/sqm<br>Avg Transactions: 1015<br>Avg Remaining Lease: 67.1 years<br>Median Remaining Lease: 63.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_38a3370f4e7b8572cb2d771e50dfb5af.setContent(html_694ff4a69a65c7083cb0105fb632c9eb);
+            
+        
+
+        circle_marker_4a5d20341210a0cf35b6421a223bb632.bindPopup(popup_38a3370f4e7b8572cb2d771e50dfb5af)
+        ;
+
+        
+    
+    
+            var circle_marker_5b12c124ed5a34a6dd1a5192b50f0a16 = L.circleMarker(
+                [1.3321, 103.743],
+                {"bubblingMouseEvents": true, "color": "#ffe691", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe691", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.9893828024734574, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_05b07115e51c565eb37f9bc2120cba6e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a5a9902d66b217af81c3fc6350fd39fd = $(`<div id="html_a5a9902d66b217af81c3fc6350fd39fd" style="width: 100.0%; height: 100.0%;"><b>JURONG EAST</b><br>Avg Resale Price: 5133.04 SGD/sqm<br>Avg Transactions: 424<br>Avg Remaining Lease: 70.0 years<br>Median Remaining Lease: 68.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_05b07115e51c565eb37f9bc2120cba6e.setContent(html_a5a9902d66b217af81c3fc6350fd39fd);
+            
+        
+
+        circle_marker_5b12c124ed5a34a6dd1a5192b50f0a16.bindPopup(popup_05b07115e51c565eb37f9bc2120cba6e)
+        ;
+
+        
+    
+    
+            var circle_marker_1b3f7c14e8ba5d12749deb7ff903067d = L.circleMarker(
+                [1.34, 103.7064],
+                {"bubblingMouseEvents": true, "color": "#febf5a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febf5a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.504025201260063, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_02c550ab39d4274fca5854e0710c5c14 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_05a138e67d2333e963f463e18f1171c2 = $(`<div id="html_05a138e67d2333e963f463e18f1171c2" style="width: 100.0%; height: 100.0%;"><b>JURONG WEST</b><br>Avg Resale Price: 6015.74 SGD/sqm<br>Avg Transactions: 216<br>Avg Remaining Lease: 86.2 years<br>Median Remaining Lease: 92.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_02c550ab39d4274fca5854e0710c5c14.setContent(html_05a138e67d2333e963f463e18f1171c2);
+            
+        
+
+        circle_marker_1b3f7c14e8ba5d12749deb7ff903067d.bindPopup(popup_02c550ab39d4274fca5854e0710c5c14)
+        ;
+
+        
+    
+    
+            var circle_marker_ac7aca902006116601bc466dcc681ee7 = L.circleMarker(
+                [1.34, 103.7064],
+                {"bubblingMouseEvents": true, "color": "#fff4b2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff4b2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.216310815540778, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4c9b6b02f50e46ce0c9ffaef392deb0a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0e8d1aa4088e0e7588598ee00bb43fdd = $(`<div id="html_0e8d1aa4088e0e7588598ee00bb43fdd" style="width: 100.0%; height: 100.0%;"><b>JURONG WEST</b><br>Avg Resale Price: 4635.27 SGD/sqm<br>Avg Transactions: 2664<br>Avg Remaining Lease: 63.8 years<br>Median Remaining Lease: 59.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4c9b6b02f50e46ce0c9ffaef392deb0a.setContent(html_0e8d1aa4088e0e7588598ee00bb43fdd);
+            
+        
+
+        circle_marker_ac7aca902006116601bc466dcc681ee7.bindPopup(popup_4c9b6b02f50e46ce0c9ffaef392deb0a)
+        ;
+
+        
+    
+    
+            var circle_marker_1d6a7b30b6b96f12826ddb850be09f62 = L.circleMarker(
+                [1.34, 103.7064],
+                {"bubblingMouseEvents": true, "color": "#fff9bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff9bd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.021934430054838, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_2391bc824d2148c686e97f80c644abde = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_622dcbaf2f7bef6d297404fcddc32755 = $(`<div id="html_622dcbaf2f7bef6d297404fcddc32755" style="width: 100.0%; height: 100.0%;"><b>JURONG WEST</b><br>Avg Resale Price: 4465.70 SGD/sqm<br>Avg Transactions: 5152<br>Avg Remaining Lease: 75.7 years<br>Median Remaining Lease: 75.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_2391bc824d2148c686e97f80c644abde.setContent(html_622dcbaf2f7bef6d297404fcddc32755);
+            
+        
+
+        circle_marker_1d6a7b30b6b96f12826ddb850be09f62.bindPopup(popup_2391bc824d2148c686e97f80c644abde)
+        ;
+
+        
+    
+    
+            var circle_marker_0b0910b091287b5391144525c2d71f9f = L.circleMarker(
+                [1.34, 103.7064],
+                {"bubblingMouseEvents": true, "color": "#fffac0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffac0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.148174075370434, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_dfa9e662035ef80da0c5803277c948a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3e9d89aa333cd3f86e7912b4b5e6bdcc = $(`<div id="html_3e9d89aa333cd3f86e7912b4b5e6bdcc" style="width: 100.0%; height: 100.0%;"><b>JURONG WEST</b><br>Avg Resale Price: 4418.74 SGD/sqm<br>Avg Transactions: 4349<br>Avg Remaining Lease: 77.5 years<br>Median Remaining Lease: 78.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_dfa9e662035ef80da0c5803277c948a2.setContent(html_3e9d89aa333cd3f86e7912b4b5e6bdcc);
+            
+        
+
+        circle_marker_0b0910b091287b5391144525c2d71f9f.bindPopup(popup_dfa9e662035ef80da0c5803277c948a2)
+        ;
+
+        
+    
+    
+            var circle_marker_fbad4681f8698e871c27f32bf06b8d8b = L.circleMarker(
+                [1.34, 103.7064],
+                {"bubblingMouseEvents": true, "color": "#fff9be", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff9be", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.402170108505425, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_df166fe27711a1d7e5187263369c6acf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_43e2f25fda41867188b87c66041bbe2d = $(`<div id="html_43e2f25fda41867188b87c66041bbe2d" style="width: 100.0%; height: 100.0%;"><b>JURONG WEST</b><br>Avg Resale Price: 4444.57 SGD/sqm<br>Avg Transactions: 1458<br>Avg Remaining Lease: 73.5 years<br>Median Remaining Lease: 74.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_df166fe27711a1d7e5187263369c6acf.setContent(html_43e2f25fda41867188b87c66041bbe2d);
+            
+        
+
+        circle_marker_fbad4681f8698e871c27f32bf06b8d8b.bindPopup(popup_df166fe27711a1d7e5187263369c6acf)
+        ;
+
+        
+    
+    
+            var circle_marker_a020a370d615a01b00db8de6175b2fd7 = L.circleMarker(
+                [1.321, 103.8618],
+                {"bubblingMouseEvents": true, "color": "#fede80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fede80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.219344300548361, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_bfceb9442fbda98b975a5007a626f572 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f06c635e1a9d4fbbd2d20fd9af4205a = $(`<div id="html_2f06c635e1a9d4fbbd2d20fd9af4205a" style="width: 100.0%; height: 100.0%;"><b>KALLANG/WHAMPOA</b><br>Avg Resale Price: 5412.92 SGD/sqm<br>Avg Transactions: 94<br>Avg Remaining Lease: 52.1 years<br>Median Remaining Lease: 49.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_bfceb9442fbda98b975a5007a626f572.setContent(html_2f06c635e1a9d4fbbd2d20fd9af4205a);
+            
+        
+
+        circle_marker_a020a370d615a01b00db8de6175b2fd7.bindPopup(popup_bfceb9442fbda98b975a5007a626f572)
+        ;
+
+        
+    
+    
+            var circle_marker_afe25b94fa08504e35982e010105910e = L.circleMarker(
+                [1.321, 103.8618],
+                {"bubblingMouseEvents": true, "color": "#fec45f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec45f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.391319565978298, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_ba9a00ea02634c2f6348fd161127afc7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4119482732bce58465e743307d8eecb3 = $(`<div id="html_4119482732bce58465e743307d8eecb3" style="width: 100.0%; height: 100.0%;"><b>KALLANG/WHAMPOA</b><br>Avg Resale Price: 5942.57 SGD/sqm<br>Avg Transactions: 2739<br>Avg Remaining Lease: 59.8 years<br>Median Remaining Lease: 55.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_ba9a00ea02634c2f6348fd161127afc7.setContent(html_4119482732bce58465e743307d8eecb3);
+            
+        
+
+        circle_marker_afe25b94fa08504e35982e010105910e.bindPopup(popup_ba9a00ea02634c2f6348fd161127afc7)
+        ;
+
+        
+    
+    
+            var circle_marker_f3afd58d1ea8d768778a6eea7c0e1d70 = L.circleMarker(
+                [1.321, 103.8618],
+                {"bubblingMouseEvents": true, "color": "#fc592d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc592d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.48360751370902, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f23eec5a595ee9a10698585779899b9d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_89eb3d6a1183d90049b4b89568e653ea = $(`<div id="html_89eb3d6a1183d90049b4b89568e653ea" style="width: 100.0%; height: 100.0%;"><b>KALLANG/WHAMPOA</b><br>Avg Resale Price: 7464.83 SGD/sqm<br>Avg Transactions: 2350<br>Avg Remaining Lease: 77.0 years<br>Median Remaining Lease: 80.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f23eec5a595ee9a10698585779899b9d.setContent(html_89eb3d6a1183d90049b4b89568e653ea);
+            
+        
+
+        circle_marker_f3afd58d1ea8d768778a6eea7c0e1d70.bindPopup(popup_f23eec5a595ee9a10698585779899b9d)
+        ;
+
+        
+    
+    
+            var circle_marker_f644b9d849a08b2299482859e4fa6b23 = L.circleMarker(
+                [1.321, 103.8618],
+                {"bubblingMouseEvents": true, "color": "#fd9740", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9740", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.457122856142807, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a16125c402055c0789e3d1938979e782 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5ea2039e6114c85796616156efb9dff6 = $(`<div id="html_5ea2039e6114c85796616156efb9dff6" style="width: 100.0%; height: 100.0%;"><b>KALLANG/WHAMPOA</b><br>Avg Resale Price: 6731.99 SGD/sqm<br>Avg Transactions: 1053<br>Avg Remaining Lease: 72.4 years<br>Median Remaining Lease: 74.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a16125c402055c0789e3d1938979e782.setContent(html_5ea2039e6114c85796616156efb9dff6);
+            
+        
+
+        circle_marker_f644b9d849a08b2299482859e4fa6b23.bindPopup(popup_a16125c402055c0789e3d1938979e782)
+        ;
+
+        
+    
+    
+            var circle_marker_45ff7ccaf68903537d86b27f3575061a = L.circleMarker(
+                [1.321, 103.8618],
+                {"bubblingMouseEvents": true, "color": "#fec45f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec45f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.310348850775872, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f0869522c0d91c6ceb5ca9de9cb1a45f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_351db0583d82846e8f0a3bc591740809 = $(`<div id="html_351db0583d82846e8f0a3bc591740809" style="width: 100.0%; height: 100.0%;"><b>KALLANG/WHAMPOA</b><br>Avg Resale Price: 5943.78 SGD/sqm<br>Avg Transactions: 133<br>Avg Remaining Lease: 65.7 years<br>Median Remaining Lease: 65.0 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f0869522c0d91c6ceb5ca9de9cb1a45f.setContent(html_351db0583d82846e8f0a3bc591740809);
+            
+        
+
+        circle_marker_45ff7ccaf68903537d86b27f3575061a.bindPopup(popup_f0869522c0d91c6ceb5ca9de9cb1a45f)
+        ;
+
+        
+    
+    
+            var circle_marker_63d03dcc33cbb04fac7ef17f1d640488 = L.circleMarker(
+                [1.3032, 103.9057],
+                {"bubblingMouseEvents": true, "color": "#fec863", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec863", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.016334150040835, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_40916564cef601e289d6b561c237acf1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_361e809b2c2ad2c439dfc5e30ee86e4a = $(`<div id="html_361e809b2c2ad2c439dfc5e30ee86e4a" style="width: 100.0%; height: 100.0%;"><b>MARINE PARADE</b><br>Avg Resale Price: 5871.62 SGD/sqm<br>Avg Transactions: 7<br>Avg Remaining Lease: 52.0 years<br>Median Remaining Lease: 51.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM']<br></div>`)[0];
+                popup_40916564cef601e289d6b561c237acf1.setContent(html_361e809b2c2ad2c439dfc5e30ee86e4a);
+            
+        
+
+        circle_marker_63d03dcc33cbb04fac7ef17f1d640488.bindPopup(popup_40916564cef601e289d6b561c237acf1)
+        ;
+
+        
+    
+    
+            var circle_marker_57470b6cc822fc4d3a96ad383c2dfae0 = L.circleMarker(
+                [1.3032, 103.9057],
+                {"bubblingMouseEvents": true, "color": "#febf5a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febf5a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.465406603663517, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_ac5374f34d46401ded927189e5141515 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4caae1c7d59910fa8d155d63a2168f86 = $(`<div id="html_4caae1c7d59910fa8d155d63a2168f86" style="width: 100.0%; height: 100.0%;"><b>MARINE PARADE</b><br>Avg Resale Price: 6024.23 SGD/sqm<br>Avg Transactions: 628<br>Avg Remaining Lease: 53.2 years<br>Median Remaining Lease: 53.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM']<br></div>`)[0];
+                popup_ac5374f34d46401ded927189e5141515.setContent(html_4caae1c7d59910fa8d155d63a2168f86);
+            
+        
+
+        circle_marker_57470b6cc822fc4d3a96ad383c2dfae0.bindPopup(popup_ac5374f34d46401ded927189e5141515)
+        ;
+
+        
+    
+    
+            var circle_marker_68a947120cae7d5093b83ac0c035319c = L.circleMarker(
+                [1.3032, 103.9057],
+                {"bubblingMouseEvents": true, "color": "#feb44e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb44e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.730369851825925, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_25c6ed61ba4ddf91e4e34ee931d3b663 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ff145c7a6ea766c977aa433200e89f7e = $(`<div id="html_ff145c7a6ea766c977aa433200e89f7e" style="width: 100.0%; height: 100.0%;"><b>MARINE PARADE</b><br>Avg Resale Price: 6198.82 SGD/sqm<br>Avg Transactions: 313<br>Avg Remaining Lease: 53.4 years<br>Median Remaining Lease: 53.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM']<br></div>`)[0];
+                popup_25c6ed61ba4ddf91e4e34ee931d3b663.setContent(html_ff145c7a6ea766c977aa433200e89f7e);
+            
+        
+
+        circle_marker_68a947120cae7d5093b83ac0c035319c.bindPopup(popup_25c6ed61ba4ddf91e4e34ee931d3b663)
+        ;
+
+        
+    
+    
+            var circle_marker_541cae0c562d9405c18538d8d0f9e57d = L.circleMarker(
+                [1.3032, 103.9057],
+                {"bubblingMouseEvents": true, "color": "#fd8a3b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8a3b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.784039201960098, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3e07529b32a178ff330fc0f3062bb9fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e0b6f3626a55c3d6c1decebba7658552 = $(`<div id="html_e0b6f3626a55c3d6c1decebba7658552" style="width: 100.0%; height: 100.0%;"><b>MARINE PARADE</b><br>Avg Resale Price: 6934.98 SGD/sqm<br>Avg Transactions: 336<br>Avg Remaining Lease: 53.3 years<br>Median Remaining Lease: 52.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM']<br></div>`)[0];
+                popup_3e07529b32a178ff330fc0f3062bb9fa.setContent(html_e0b6f3626a55c3d6c1decebba7658552);
+            
+        
+
+        circle_marker_541cae0c562d9405c18538d8d0f9e57d.bindPopup(popup_3e07529b32a178ff330fc0f3062bb9fa)
+        ;
+
+        
+    
+    
+            var circle_marker_5c5aa48c3608d6cce60a12d13cae52f0 = L.circleMarker(
+                [1.373, 103.9497],
+                {"bubblingMouseEvents": true, "color": "#fd933f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd933f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.119005950297515, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f8cdf5c6df68589a61591a8726588eb4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c8ceefd001de44ec8a5b24a823576dc5 = $(`<div id="html_c8ceefd001de44ec8a5b24a823576dc5" style="width: 100.0%; height: 100.0%;"><b>PASIR RIS</b><br>Avg Resale Price: 6784.69 SGD/sqm<br>Avg Transactions: 51<br>Avg Remaining Lease: 90.1 years<br>Median Remaining Lease: 91.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f8cdf5c6df68589a61591a8726588eb4.setContent(html_c8ceefd001de44ec8a5b24a823576dc5);
+            
+        
+
+        circle_marker_5c5aa48c3608d6cce60a12d13cae52f0.bindPopup(popup_f8cdf5c6df68589a61591a8726588eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_23f058c501e5f2a98dad1c6559aa6a0c = L.circleMarker(
+                [1.373, 103.9497],
+                {"bubblingMouseEvents": true, "color": "#feaf4b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feaf4b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.361684750904212, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_7b3e9ae8c22caa35fe71c3939f2dffc6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c76262d5ba05a6bd17538bfd881b17cc = $(`<div id="html_c76262d5ba05a6bd17538bfd881b17cc" style="width: 100.0%; height: 100.0%;"><b>PASIR RIS</b><br>Avg Resale Price: 6288.08 SGD/sqm<br>Avg Transactions: 155<br>Avg Remaining Lease: 83.7 years<br>Median Remaining Lease: 91.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_7b3e9ae8c22caa35fe71c3939f2dffc6.setContent(html_c76262d5ba05a6bd17538bfd881b17cc);
+            
+        
+
+        circle_marker_23f058c501e5f2a98dad1c6559aa6a0c.bindPopup(popup_7b3e9ae8c22caa35fe71c3939f2dffc6)
+        ;
+
+        
+    
+    
+            var circle_marker_b6abad24de7e46d7fd2ef2e9143b5a24 = L.circleMarker(
+                [1.373, 103.9497],
+                {"bubblingMouseEvents": true, "color": "#fff0a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff0a7", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.506942013767356, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_48f5d4cf6f690e5bae689e91d231a958 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eb3af2ec8ad88f9235db77d1fbecb825 = $(`<div id="html_eb3af2ec8ad88f9235db77d1fbecb825" style="width: 100.0%; height: 100.0%;"><b>PASIR RIS</b><br>Avg Resale Price: 4795.45 SGD/sqm<br>Avg Transactions: 2360<br>Avg Remaining Lease: 74.8 years<br>Median Remaining Lease: 71.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_48f5d4cf6f690e5bae689e91d231a958.setContent(html_eb3af2ec8ad88f9235db77d1fbecb825);
+            
+        
+
+        circle_marker_b6abad24de7e46d7fd2ef2e9143b5a24.bindPopup(popup_48f5d4cf6f690e5bae689e91d231a958)
+        ;
+
+        
+    
+    
+            var circle_marker_a9ed8e053fe117b04c98a67c42e81b16 = L.circleMarker(
+                [1.373, 103.9497],
+                {"bubblingMouseEvents": true, "color": "#fff5b3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff5b3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.45455606113639, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e25911e9d5f1596a89b43c402d3334f1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fdd89b60806cecab068e06c4c8b145ee = $(`<div id="html_fdd89b60806cecab068e06c4c8b145ee" style="width: 100.0%; height: 100.0%;"><b>PASIR RIS</b><br>Avg Resale Price: 4609.87 SGD/sqm<br>Avg Transactions: 1909<br>Avg Remaining Lease: 73.4 years<br>Median Remaining Lease: 72.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e25911e9d5f1596a89b43c402d3334f1.setContent(html_fdd89b60806cecab068e06c4c8b145ee);
+            
+        
+
+        circle_marker_a9ed8e053fe117b04c98a67c42e81b16.bindPopup(popup_e25911e9d5f1596a89b43c402d3334f1)
+        ;
+
+        
+    
+    
+            var circle_marker_6ba90e3cae6a74b5ba93b6e68681e712 = L.circleMarker(
+                [1.373, 103.9497],
+                {"bubblingMouseEvents": true, "color": "#ffefa4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffefa4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.628514759071287, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_8e1da2b3faaf45f7bc4aabbf30d3d8a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eb0caf4b9599e102c82eb3f584d5549c = $(`<div id="html_eb0caf4b9599e102c82eb3f584d5549c" style="width: 100.0%; height: 100.0%;"><b>PASIR RIS</b><br>Avg Resale Price: 4846.38 SGD/sqm<br>Avg Transactions: 1555<br>Avg Remaining Lease: 71.4 years<br>Median Remaining Lease: 71.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_8e1da2b3faaf45f7bc4aabbf30d3d8a3.setContent(html_eb0caf4b9599e102c82eb3f584d5549c);
+            
+        
+
+        circle_marker_6ba90e3cae6a74b5ba93b6e68681e712.bindPopup(popup_8e1da2b3faaf45f7bc4aabbf30d3d8a3)
+        ;
+
+        
+    
+    
+            var circle_marker_e039be602a0b5f4ac68d2f88a228e04b = L.circleMarker(
+                [1.4043, 103.9021],
+                {"bubblingMouseEvents": true, "color": "#fd9a42", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9a42", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.982382452455957, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_2be2fcc216c850615eae0d2b8bbcad83 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dd62a8dd2248095b7646ec1ae2372074 = $(`<div id="html_dd62a8dd2248095b7646ec1ae2372074" style="width: 100.0%; height: 100.0%;"><b>PUNGGOL</b><br>Avg Resale Price: 6673.98 SGD/sqm<br>Avg Transactions: 421<br>Avg Remaining Lease: 92.9 years<br>Median Remaining Lease: 93.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_2be2fcc216c850615eae0d2b8bbcad83.setContent(html_dd62a8dd2248095b7646ec1ae2372074);
+            
+        
+
+        circle_marker_e039be602a0b5f4ac68d2f88a228e04b.bindPopup(popup_2be2fcc216c850615eae0d2b8bbcad83)
+        ;
+
+        
+    
+    
+            var circle_marker_5cf5e6d1738ec2bb8208683968d275b1 = L.circleMarker(
+                [1.4043, 103.9021],
+                {"bubblingMouseEvents": true, "color": "#feb04b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb04b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.745187259362968, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_c898b4a540ee7f6ca20f3df2c0dacd55 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_086a6ca402088267335b5712b824e90b = $(`<div id="html_086a6ca402088267335b5712b824e90b" style="width: 100.0%; height: 100.0%;"><b>PUNGGOL</b><br>Avg Resale Price: 6275.92 SGD/sqm<br>Avg Transactions: 1605<br>Avg Remaining Lease: 93.0 years<br>Median Remaining Lease: 93.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_c898b4a540ee7f6ca20f3df2c0dacd55.setContent(html_086a6ca402088267335b5712b824e90b);
+            
+        
+
+        circle_marker_5cf5e6d1738ec2bb8208683968d275b1.bindPopup(popup_c898b4a540ee7f6ca20f3df2c0dacd55)
+        ;
+
+        
+    
+    
+            var circle_marker_b0b7294bc7739f25198bde314fa206f1 = L.circleMarker(
+                [1.4043, 103.9021],
+                {"bubblingMouseEvents": true, "color": "#fed36f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed36f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.942947147357366, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_8c2ac135439fc1c1e3b1102083507ad7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_361af4dbdcb20309b1b06a6530d4cc97 = $(`<div id="html_361af4dbdcb20309b1b06a6530d4cc97" style="width: 100.0%; height: 100.0%;"><b>PUNGGOL</b><br>Avg Resale Price: 5672.05 SGD/sqm<br>Avg Transactions: 8118<br>Avg Remaining Lease: 91.2 years<br>Median Remaining Lease: 92.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_8c2ac135439fc1c1e3b1102083507ad7.setContent(html_361af4dbdcb20309b1b06a6530d4cc97);
+            
+        
+
+        circle_marker_b0b7294bc7739f25198bde314fa206f1.bindPopup(popup_8c2ac135439fc1c1e3b1102083507ad7)
+        ;
+
+        
+    
+    
+            var circle_marker_429322d91470af4e74259e594ba25554 = L.circleMarker(
+                [1.4043, 103.9021],
+                {"bubblingMouseEvents": true, "color": "#fee084", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee084", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.35456772838642, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b66d1c01f3251b30f029b700f3967364 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1f995c241923c0be9e78db0bb552eb06 = $(`<div id="html_1f995c241923c0be9e78db0bb552eb06" style="width: 100.0%; height: 100.0%;"><b>PUNGGOL</b><br>Avg Resale Price: 5343.87 SGD/sqm<br>Avg Transactions: 4866<br>Avg Remaining Lease: 87.5 years<br>Median Remaining Lease: 86.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b66d1c01f3251b30f029b700f3967364.setContent(html_1f995c241923c0be9e78db0bb552eb06);
+            
+        
+
+        circle_marker_429322d91470af4e74259e594ba25554.bindPopup(popup_b66d1c01f3251b30f029b700f3967364)
+        ;
+
+        
+    
+    
+            var circle_marker_9a7e0e4fabb77cf9431ca04f9779efba = L.circleMarker(
+                [1.4043, 103.9021],
+                {"bubblingMouseEvents": true, "color": "#ffeea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeea3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.667366701668417, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_af93fa8ea7104a412a2e7d81e945757b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cd38a75fe4bc9d0b94c670cb5a69d48d = $(`<div id="html_cd38a75fe4bc9d0b94c670cb5a69d48d" style="width: 100.0%; height: 100.0%;"><b>PUNGGOL</b><br>Avg Resale Price: 4866.91 SGD/sqm<br>Avg Transactions: 286<br>Avg Remaining Lease: 81.8 years<br>Median Remaining Lease: 81.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_af93fa8ea7104a412a2e7d81e945757b.setContent(html_cd38a75fe4bc9d0b94c670cb5a69d48d);
+            
+        
+
+        circle_marker_9a7e0e4fabb77cf9431ca04f9779efba.bindPopup(popup_af93fa8ea7104a412a2e7d81e945757b)
+        ;
+
+        
+    
+    
+            var circle_marker_c4c230774ec6560648d903d2e7522dd4 = L.circleMarker(
+                [1.2944, 103.8031],
+                {"bubblingMouseEvents": true, "color": "#feb953", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb953", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.3523509508808775, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_dccb21b9678bc5c12c70197de4a9ae44 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b30898b9d0c1f98e469000b414f2f1c5 = $(`<div id="html_b30898b9d0c1f98e469000b414f2f1c5" style="width: 100.0%; height: 100.0%;"><b>QUEENSTOWN</b><br>Avg Resale Price: 6121.79 SGD/sqm<br>Avg Transactions: 151<br>Avg Remaining Lease: 60.1 years<br>Median Remaining Lease: 48.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_dccb21b9678bc5c12c70197de4a9ae44.setContent(html_b30898b9d0c1f98e469000b414f2f1c5);
+            
+        
+
+        circle_marker_c4c230774ec6560648d903d2e7522dd4.bindPopup(popup_dccb21b9678bc5c12c70197de4a9ae44)
+        ;
+
+        
+    
+    
+            var circle_marker_3a3859c3f0257ee054ba1b6c3b297f05 = L.circleMarker(
+                [1.2944, 103.8031],
+                {"bubblingMouseEvents": true, "color": "#feac49", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feac49", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.80562361451406, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4dcf2810b115f22d2752ee3452ffb177 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bfa8718f8bb9bfbd79d8742b458e2356 = $(`<div id="html_bfa8718f8bb9bfbd79d8742b458e2356" style="width: 100.0%; height: 100.0%;"><b>QUEENSTOWN</b><br>Avg Resale Price: 6351.54 SGD/sqm<br>Avg Transactions: 2488<br>Avg Remaining Lease: 59.7 years<br>Median Remaining Lease: 51.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4dcf2810b115f22d2752ee3452ffb177.setContent(html_bfa8718f8bb9bfbd79d8742b458e2356);
+            
+        
+
+        circle_marker_3a3859c3f0257ee054ba1b6c3b297f05.bindPopup(popup_4dcf2810b115f22d2752ee3452ffb177)
+        ;
+
+        
+    
+    
+            var circle_marker_c11ff505160aad57e09f4d3b2221cadb = L.circleMarker(
+                [1.2944, 103.8031],
+                {"bubblingMouseEvents": true, "color": "#cf0c21", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cf0c21", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.275930463189827, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_6af40be83481fba18237e24e796a6c07 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8c72503beabc8524a8fa6874b3d39104 = $(`<div id="html_8c72503beabc8524a8fa6874b3d39104" style="width: 100.0%; height: 100.0%;"><b>QUEENSTOWN</b><br>Avg Resale Price: 8599.43 SGD/sqm<br>Avg Transactions: 2261<br>Avg Remaining Lease: 83.6 years<br>Median Remaining Lease: 88.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_6af40be83481fba18237e24e796a6c07.setContent(html_8c72503beabc8524a8fa6874b3d39104);
+            
+        
+
+        circle_marker_c11ff505160aad57e09f4d3b2221cadb.bindPopup(popup_6af40be83481fba18237e24e796a6c07)
+        ;
+
+        
+    
+    
+            var circle_marker_d21595921023ab8c6d5911b7d171dac1 = L.circleMarker(
+                [1.2944, 103.8031],
+                {"bubblingMouseEvents": true, "color": "#f43d25", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f43d25", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.733753354334383, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f66497d55c7893d05d5917d4c8626678 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d088b030163ca18c0fce637fc0b0bc5f = $(`<div id="html_d088b030163ca18c0fce637fc0b0bc5f" style="width: 100.0%; height: 100.0%;"><b>QUEENSTOWN</b><br>Avg Resale Price: 7787.65 SGD/sqm<br>Avg Transactions: 743<br>Avg Remaining Lease: 75.3 years<br>Median Remaining Lease: 78.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f66497d55c7893d05d5917d4c8626678.setContent(html_d088b030163ca18c0fce637fc0b0bc5f);
+            
+        
+
+        circle_marker_d21595921023ab8c6d5911b7d171dac1.bindPopup(popup_f66497d55c7893d05d5917d4c8626678)
+        ;
+
+        
+    
+    
+            var circle_marker_010ffdd3e9ff03e3de57f5c30bd7ebc2 = L.circleMarker(
+                [1.2944, 103.8031],
+                {"bubblingMouseEvents": true, "color": "#fc6832", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc6832", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.130673200326683, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_1d45c33d21a8d149b212c4db674d5d09 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a98c462c1f9cfbf862c89b2d73fd652b = $(`<div id="html_a98c462c1f9cfbf862c89b2d73fd652b" style="width: 100.0%; height: 100.0%;"><b>QUEENSTOWN</b><br>Avg Resale Price: 7285.15 SGD/sqm<br>Avg Transactions: 56<br>Avg Remaining Lease: 73.5 years<br>Median Remaining Lease: 73.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_1d45c33d21a8d149b212c4db674d5d09.setContent(html_a98c462c1f9cfbf862c89b2d73fd652b);
+            
+        
+
+        circle_marker_010ffdd3e9ff03e3de57f5c30bd7ebc2.bindPopup(popup_1d45c33d21a8d149b212c4db674d5d09)
+        ;
+
+        
+    
+    
+            var circle_marker_8d4dcd295fd57833bf849819240e61d8 = L.circleMarker(
+                [1.4491, 103.8205],
+                {"bubblingMouseEvents": true, "color": "#fd7636", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd7636", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.8143740520359355, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_c3ef49c8d50ef4c741a8297364bd1c11 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1c3e6a2a81b9734cb1bc3e8f4fcceea8 = $(`<div id="html_1c3e6a2a81b9734cb1bc3e8f4fcceea8" style="width: 100.0%; height: 100.0%;"><b>SEMBAWANG</b><br>Avg Resale Price: 7147.18 SGD/sqm<br>Avg Transactions: 349<br>Avg Remaining Lease: 93.7 years<br>Median Remaining Lease: 94.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_c3ef49c8d50ef4c741a8297364bd1c11.setContent(html_1c3e6a2a81b9734cb1bc3e8f4fcceea8);
+            
+        
+
+        circle_marker_8d4dcd295fd57833bf849819240e61d8.bindPopup(popup_c3ef49c8d50ef4c741a8297364bd1c11)
+        ;
+
+        
+    
+    
+            var circle_marker_f7a62d0966dee6c58b2130fe314d15c5 = L.circleMarker(
+                [1.4491, 103.8205],
+                {"bubblingMouseEvents": true, "color": "#fead4a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fead4a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.996383152490958, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b6658d87f832a932e9ad74601c97c50a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ae81bda74383e9e9e4da62135fed3a60 = $(`<div id="html_ae81bda74383e9e9e4da62135fed3a60" style="width: 100.0%; height: 100.0%;"><b>SEMBAWANG</b><br>Avg Resale Price: 6322.29 SGD/sqm<br>Avg Transactions: 427<br>Avg Remaining Lease: 93.8 years<br>Median Remaining Lease: 94.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b6658d87f832a932e9ad74601c97c50a.setContent(html_ae81bda74383e9e9e4da62135fed3a60);
+            
+        
+
+        circle_marker_f7a62d0966dee6c58b2130fe314d15c5.bindPopup(popup_b6658d87f832a932e9ad74601c97c50a)
+        ;
+
+        
+    
+    
+            var circle_marker_359c63e44bc6f3efe5f7c1ea71b6ff6c = L.circleMarker(
+                [1.4491, 103.8205],
+                {"bubblingMouseEvents": true, "color": "#ffe590", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe590", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.633998366584995, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4b20c532532f8812ab73ee5e676cd330 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_762b23fa4ffbff3e85c416b19d9218b6 = $(`<div id="html_762b23fa4ffbff3e85c416b19d9218b6" style="width: 100.0%; height: 100.0%;"><b>SEMBAWANG</b><br>Avg Resale Price: 5156.99 SGD/sqm<br>Avg Transactions: 2843<br>Avg Remaining Lease: 86.5 years<br>Median Remaining Lease: 85.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4b20c532532f8812ab73ee5e676cd330.setContent(html_762b23fa4ffbff3e85c416b19d9218b6);
+            
+        
+
+        circle_marker_359c63e44bc6f3efe5f7c1ea71b6ff6c.bindPopup(popup_4b20c532532f8812ab73ee5e676cd330)
+        ;
+
+        
+    
+    
+            var circle_marker_fa0bf5cadd846a26fdb8fee920904fa5 = L.circleMarker(
+                [1.4491, 103.8205],
+                {"bubblingMouseEvents": true, "color": "#fff4b2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff4b2", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.316882510792206, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_cfc35519fcb8e5b19b25e797a6cc3f7c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b7cfca3dfaa13ce8ca3cbf2b9cf5fc33 = $(`<div id="html_b7cfca3dfaa13ce8ca3cbf2b9cf5fc33" style="width: 100.0%; height: 100.0%;"><b>SEMBAWANG</b><br>Avg Resale Price: 4629.28 SGD/sqm<br>Avg Transactions: 1850<br>Avg Remaining Lease: 81.8 years<br>Median Remaining Lease: 80.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_cfc35519fcb8e5b19b25e797a6cc3f7c.setContent(html_b7cfca3dfaa13ce8ca3cbf2b9cf5fc33);
+            
+        
+
+        circle_marker_fa0bf5cadd846a26fdb8fee920904fa5.bindPopup(popup_cfc35519fcb8e5b19b25e797a6cc3f7c)
+        ;
+
+        
+    
+    
+            var circle_marker_30aee09acdd0ee43d4e1ad124c275a61 = L.circleMarker(
+                [1.4491, 103.8205],
+                {"bubblingMouseEvents": true, "color": "#ffffcc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffcc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.551744253879361, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_2f38e09c1a95267fa668f59be12ad6c5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7ffa295b226d09bbe81dddb3ab4fe089 = $(`<div id="html_7ffa295b226d09bbe81dddb3ab4fe089" style="width: 100.0%; height: 100.0%;"><b>SEMBAWANG</b><br>Avg Resale Price: 4229.06 SGD/sqm<br>Avg Transactions: 665<br>Avg Remaining Lease: 79.2 years<br>Median Remaining Lease: 79.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_2f38e09c1a95267fa668f59be12ad6c5.setContent(html_7ffa295b226d09bbe81dddb3ab4fe089);
+            
+        
+
+        circle_marker_30aee09acdd0ee43d4e1ad124c275a61.bindPopup(popup_2f38e09c1a95267fa668f59be12ad6c5)
+        ;
+
+        
+    
+    
+            var circle_marker_59a7173981738f55d4f596b5746c67ba = L.circleMarker(
+                [1.3911, 103.895],
+                {"bubblingMouseEvents": true, "color": "#fd9f44", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9f44", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.98471590246179, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3d34f3b81e7464eba44478aab5dbb023 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f631e59450d5d4d8d989b367eb09065 = $(`<div id="html_2f631e59450d5d4d8d989b367eb09065" style="width: 100.0%; height: 100.0%;"><b>SENGKANG</b><br>Avg Resale Price: 6591.19 SGD/sqm<br>Avg Transactions: 422<br>Avg Remaining Lease: 92.3 years<br>Median Remaining Lease: 93.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_3d34f3b81e7464eba44478aab5dbb023.setContent(html_2f631e59450d5d4d8d989b367eb09065);
+            
+        
+
+        circle_marker_59a7173981738f55d4f596b5746c67ba.bindPopup(popup_3d34f3b81e7464eba44478aab5dbb023)
+        ;
+
+        
+    
+    
+            var circle_marker_cfe5289a4d1972265eaacb7891e308b0 = L.circleMarker(
+                [1.3911, 103.895],
+                {"bubblingMouseEvents": true, "color": "#febf5a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febf5a", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.863143157157858, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_9c121e743e815a6edb6d3c5de2f0f49a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_000e8984fe42bedb81995fc4de7d803c = $(`<div id="html_000e8984fe42bedb81995fc4de7d803c" style="width: 100.0%; height: 100.0%;"><b>SENGKANG</b><br>Avg Resale Price: 6013.68 SGD/sqm<br>Avg Transactions: 1227<br>Avg Remaining Lease: 92.5 years<br>Median Remaining Lease: 93.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_9c121e743e815a6edb6d3c5de2f0f49a.setContent(html_000e8984fe42bedb81995fc4de7d803c);
+            
+        
+
+        circle_marker_cfe5289a4d1972265eaacb7891e308b0.bindPopup(popup_9c121e743e815a6edb6d3c5de2f0f49a)
+        ;
+
+        
+    
+    
+            var circle_marker_cc2524317b8d3855f39594749161fdcd = L.circleMarker(
+                [1.3911, 103.895],
+                {"bubblingMouseEvents": true, "color": "#fede82", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fede82", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.0, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_5eb70544d77d0c29d0aa5003f1c87782 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_53979d84aeddef29dc6a920d77bd3de5 = $(`<div id="html_53979d84aeddef29dc6a920d77bd3de5" style="width: 100.0%; height: 100.0%;"><b>SENGKANG</b><br>Avg Resale Price: 5379.55 SGD/sqm<br>Avg Transactions: 8571<br>Avg Remaining Lease: 88.0 years<br>Median Remaining Lease: 90.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_5eb70544d77d0c29d0aa5003f1c87782.setContent(html_53979d84aeddef29dc6a920d77bd3de5);
+            
+        
+
+        circle_marker_cc2524317b8d3855f39594749161fdcd.bindPopup(popup_5eb70544d77d0c29d0aa5003f1c87782)
+        ;
+
+        
+    
+    
+            var circle_marker_9962c695d68d6c5a947e3092d9fd9565 = L.circleMarker(
+                [1.3911, 103.895],
+                {"bubblingMouseEvents": true, "color": "#ffec9d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffec9d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.66001633415004, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_2e850ac254f213c1d36f47da15d68993 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_58047cc366db1fcd3ab3597007c7f266 = $(`<div id="html_58047cc366db1fcd3ab3597007c7f266" style="width: 100.0%; height: 100.0%;"><b>SENGKANG</b><br>Avg Resale Price: 4954.98 SGD/sqm<br>Avg Transactions: 5854<br>Avg Remaining Lease: 84.0 years<br>Median Remaining Lease: 81.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_2e850ac254f213c1d36f47da15d68993.setContent(html_58047cc366db1fcd3ab3597007c7f266);
+            
+        
+
+        circle_marker_9962c695d68d6c5a947e3092d9fd9565.bindPopup(popup_2e850ac254f213c1d36f47da15d68993)
+        ;
+
+        
+    
+    
+            var circle_marker_b714de6348c9031c68eb41250974cbcc = L.circleMarker(
+                [1.3911, 103.895],
+                {"bubblingMouseEvents": true, "color": "#ffefa4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffefa4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5247929063119825, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_eacbb77556b1c04a518272089a1bc88f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3eb44d7bc78bf78c61b1a0f04017f123 = $(`<div id="html_3eb44d7bc78bf78c61b1a0f04017f123" style="width: 100.0%; height: 100.0%;"><b>SENGKANG</b><br>Avg Resale Price: 4847.96 SGD/sqm<br>Avg Transactions: 1082<br>Avg Remaining Lease: 79.2 years<br>Median Remaining Lease: 79.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_eacbb77556b1c04a518272089a1bc88f.setContent(html_3eb44d7bc78bf78c61b1a0f04017f123);
+            
+        
+
+        circle_marker_b714de6348c9031c68eb41250974cbcc.bindPopup(popup_eacbb77556b1c04a518272089a1bc88f)
+        ;
+
+        
+    
+    
+            var circle_marker_ce1d23c47442fd60e45dfd2d75eb6234 = L.circleMarker(
+                [1.3496, 103.8739],
+                {"bubblingMouseEvents": true, "color": "#fed774", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed774", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.042002100105005, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_bcb92a5688342b84aaba89bb374aa1c6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ca007f32204bf6e51256a985f78adb9d = $(`<div id="html_ca007f32204bf6e51256a985f78adb9d" style="width: 100.0%; height: 100.0%;"><b>SERANGOON</b><br>Avg Resale Price: 5600.84 SGD/sqm<br>Avg Transactions: 18<br>Avg Remaining Lease: 56.4 years<br>Median Remaining Lease: 56.1 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_bcb92a5688342b84aaba89bb374aa1c6.setContent(html_ca007f32204bf6e51256a985f78adb9d);
+            
+        
+
+        circle_marker_ce1d23c47442fd60e45dfd2d75eb6234.bindPopup(popup_bcb92a5688342b84aaba89bb374aa1c6)
+        ;
+
+        
+    
+    
+            var circle_marker_4b342e1adaad212b22e1c120b42512f6 = L.circleMarker(
+                [1.3496, 103.8739],
+                {"bubblingMouseEvents": true, "color": "#fedd7e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedd7e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.899428304748571, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b5d9fc2036ebed373f6c37fe03b42208 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_196b09bc53f10d6b28f6addcf6c85e3d = $(`<div id="html_196b09bc53f10d6b28f6addcf6c85e3d" style="width: 100.0%; height: 100.0%;"><b>SERANGOON</b><br>Avg Resale Price: 5462.59 SGD/sqm<br>Avg Transactions: 814<br>Avg Remaining Lease: 62.4 years<br>Median Remaining Lease: 62.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_b5d9fc2036ebed373f6c37fe03b42208.setContent(html_196b09bc53f10d6b28f6addcf6c85e3d);
+            
+        
+
+        circle_marker_4b342e1adaad212b22e1c120b42512f6.bindPopup(popup_b5d9fc2036ebed373f6c37fe03b42208)
+        ;
+
+        
+    
+    
+            var circle_marker_ed61ce860872f3cd3b3c63e2b6204a03 = L.circleMarker(
+                [1.3496, 103.8739],
+                {"bubblingMouseEvents": true, "color": "#fedd7f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedd7f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.81752420954381, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_de520d05eae08e4382cdd4cc0bafe0af = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_62473e5c9153e883b9bb3ced7ff932b9 = $(`<div id="html_62473e5c9153e883b9bb3ced7ff932b9" style="width: 100.0%; height: 100.0%;"><b>SERANGOON</b><br>Avg Resale Price: 5438.65 SGD/sqm<br>Avg Transactions: 1636<br>Avg Remaining Lease: 66.1 years<br>Median Remaining Lease: 65.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_de520d05eae08e4382cdd4cc0bafe0af.setContent(html_62473e5c9153e883b9bb3ced7ff932b9);
+            
+        
+
+        circle_marker_ed61ce860872f3cd3b3c63e2b6204a03.bindPopup(popup_de520d05eae08e4382cdd4cc0bafe0af)
+        ;
+
+        
+    
+    
+            var circle_marker_ca5e6b44e942165f04baf7f6afbfd696 = L.circleMarker(
+                [1.3496, 103.8739],
+                {"bubblingMouseEvents": true, "color": "#fee187", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee187", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.591412903978532, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3d9a72277d5409817f4e1f14dd4a8f2d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0ea65956fdf94a6b0aede4095ec88717 = $(`<div id="html_0ea65956fdf94a6b0aede4095ec88717" style="width: 100.0%; height: 100.0%;"><b>SERANGOON</b><br>Avg Resale Price: 5312.61 SGD/sqm<br>Avg Transactions: 682<br>Avg Remaining Lease: 69.6 years<br>Median Remaining Lease: 68.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_3d9a72277d5409817f4e1f14dd4a8f2d.setContent(html_0ea65956fdf94a6b0aede4095ec88717);
+            
+        
+
+        circle_marker_ca5e6b44e942165f04baf7f6afbfd696.bindPopup(popup_3d9a72277d5409817f4e1f14dd4a8f2d)
+        ;
+
+        
+    
+    
+            var circle_marker_1cb53fc33cef1c10002e9053865c2050 = L.circleMarker(
+                [1.3496, 103.8739],
+                {"bubblingMouseEvents": true, "color": "#fed470", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed470", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.346400653366002, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e90c2da53f8012e96c0530d6f9c1e35d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a11cf794a012497942e41e1d14816126 = $(`<div id="html_a11cf794a012497942e41e1d14816126" style="width: 100.0%; height: 100.0%;"><b>SERANGOON</b><br>Avg Resale Price: 5661.82 SGD/sqm<br>Avg Transactions: 577<br>Avg Remaining Lease: 68.8 years<br>Median Remaining Lease: 68.3 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e90c2da53f8012e96c0530d6f9c1e35d.setContent(html_a11cf794a012497942e41e1d14816126);
+            
+        
+
+        circle_marker_1cb53fc33cef1c10002e9053865c2050.bindPopup(popup_e90c2da53f8012e96c0530d6f9c1e35d)
+        ;
+
+        
+    
+    
+            var circle_marker_0d22d17f782db8a071a2e36604e3dde6 = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#fd9740", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd9740", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.224011200560028, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_97698542664b7bc59d56fd41e1c7ffb1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_422bfee3bf3e974142e55054771ae844 = $(`<div id="html_422bfee3bf3e974142e55054771ae844" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 6733.93 SGD/sqm<br>Avg Transactions: 96<br>Avg Remaining Lease: 91.3 years<br>Median Remaining Lease: 91.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_97698542664b7bc59d56fd41e1c7ffb1.setContent(html_422bfee3bf3e974142e55054771ae844);
+            
+        
+
+        circle_marker_0d22d17f782db8a071a2e36604e3dde6.bindPopup(popup_97698542664b7bc59d56fd41e1c7ffb1)
+        ;
+
+        
+    
+    
+            var circle_marker_a8682a650ee01196ae8f46a196df6143 = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#fedb7b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedb7b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.942013767355034, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_3ba03be3e4707590e420fb1dcdfb66d8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_edadc4d1735ed6a26f3b50b00a9ed9a0 = $(`<div id="html_edadc4d1735ed6a26f3b50b00a9ed9a0" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 5495.24 SGD/sqm<br>Avg Transactions: 2975<br>Avg Remaining Lease: 68.6 years<br>Median Remaining Lease: 63.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_3ba03be3e4707590e420fb1dcdfb66d8.setContent(html_edadc4d1735ed6a26f3b50b00a9ed9a0);
+            
+        
+
+        circle_marker_a8682a650ee01196ae8f46a196df6143.bindPopup(popup_3ba03be3e4707590e420fb1dcdfb66d8)
+        ;
+
+        
+    
+    
+            var circle_marker_51b976a4fac0395b9519337e228f6c57 = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#fee288", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fee288", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.569011783922527, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_624fb5a37cee8a3275440b0eeca2809a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1a86d3958f2fce7d5489d4dd1090f92f = $(`<div id="html_1a86d3958f2fce7d5489d4dd1090f92f" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 5277.72 SGD/sqm<br>Avg Transactions: 5815<br>Avg Remaining Lease: 72.4 years<br>Median Remaining Lease: 67.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_624fb5a37cee8a3275440b0eeca2809a.setContent(html_1a86d3958f2fce7d5489d4dd1090f92f);
+            
+        
+
+        circle_marker_51b976a4fac0395b9519337e228f6c57.bindPopup(popup_624fb5a37cee8a3275440b0eeca2809a)
+        ;
+
+        
+    
+    
+            var circle_marker_332042d0124594d62d8b6e69127a95c7 = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#ffe48d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe48d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.890444522226112, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f3dba17ef44117c4f17c3c4f37f4cd73 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3ec0fb8894a5251280c3a5cff6be976f = $(`<div id="html_3ec0fb8894a5251280c3a5cff6be976f" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 5205.89 SGD/sqm<br>Avg Transactions: 3810<br>Avg Remaining Lease: 73.5 years<br>Median Remaining Lease: 70.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_f3dba17ef44117c4f17c3c4f37f4cd73.setContent(html_3ec0fb8894a5251280c3a5cff6be976f);
+            
+        
+
+        circle_marker_332042d0124594d62d8b6e69127a95c7.bindPopup(popup_f3dba17ef44117c4f17c3c4f37f4cd73)
+        ;
+
+        
+    
+    
+            var circle_marker_369f363d2d35412d89c366172087b16a = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#ffe48c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe48c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.402170108505425, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_de91f8c41479fd719daf9cb39c8b8c8c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_23c6d897306222af163bb3c6cdaacdc7 = $(`<div id="html_23c6d897306222af163bb3c6cdaacdc7" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 5222.23 SGD/sqm<br>Avg Transactions: 1458<br>Avg Remaining Lease: 68.6 years<br>Median Remaining Lease: 67.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_de91f8c41479fd719daf9cb39c8b8c8c.setContent(html_23c6d897306222af163bb3c6cdaacdc7);
+            
+        
+
+        circle_marker_369f363d2d35412d89c366172087b16a.bindPopup(popup_de91f8c41479fd719daf9cb39c8b8c8c)
+        ;
+
+        
+    
+    
+            var circle_marker_1b4e20511bdc059d3536a6850bed5e37 = L.circleMarker(
+                [1.3496, 103.9568],
+                {"bubblingMouseEvents": true, "color": "#fedc7c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fedc7c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.060669700151674, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_fad9479e44d6276bb9d810a7e4392ff3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_94dba0709c0d1e10812c47617b65b26b = $(`<div id="html_94dba0709c0d1e10812c47617b65b26b" style="width: 100.0%; height: 100.0%;"><b>TAMPINES</b><br>Avg Resale Price: 5473.43 SGD/sqm<br>Avg Transactions: 26<br>Avg Remaining Lease: 65.6 years<br>Median Remaining Lease: 65.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_fad9479e44d6276bb9d810a7e4392ff3.setContent(html_94dba0709c0d1e10812c47617b65b26b);
+            
+        
+
+        circle_marker_1b4e20511bdc059d3536a6850bed5e37.bindPopup(popup_fad9479e44d6276bb9d810a7e4392ff3)
+        ;
+
+        
+    
+    
+            var circle_marker_06c3035b238c7dcebb6fbfa32022e343 = L.circleMarker(
+                [1.3343, 103.8518],
+                {"bubblingMouseEvents": true, "color": "#fed977", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed977", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.466690001166725, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_075da9e74e39f7164384c7ed260c7dfc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_013d98cb2784290590f195ad7d1b1b3c = $(`<div id="html_013d98cb2784290590f195ad7d1b1b3c" style="width: 100.0%; height: 100.0%;"><b>TOA PAYOH</b><br>Avg Resale Price: 5562.83 SGD/sqm<br>Avg Transactions: 200<br>Avg Remaining Lease: 49.8 years<br>Median Remaining Lease: 47.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_075da9e74e39f7164384c7ed260c7dfc.setContent(html_013d98cb2784290590f195ad7d1b1b3c);
+            
+        
+
+        circle_marker_06c3035b238c7dcebb6fbfa32022e343.bindPopup(popup_075da9e74e39f7164384c7ed260c7dfc)
+        ;
+
+        
+    
+    
+            var circle_marker_00dbb8b6eae60cd17ef4bc815c81474e = L.circleMarker(
+                [1.3343, 103.8518],
+                {"bubblingMouseEvents": true, "color": "#ffe590", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe590", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.79733986699335, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_fb0201cbfad43b19edb3c063acfa6b52 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_132c089b5258db68db92f2addd9923b7 = $(`<div id="html_132c089b5258db68db92f2addd9923b7" style="width: 100.0%; height: 100.0%;"><b>TOA PAYOH</b><br>Avg Resale Price: 5159.68 SGD/sqm<br>Avg Transactions: 2913<br>Avg Remaining Lease: 54.2 years<br>Median Remaining Lease: 50.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_fb0201cbfad43b19edb3c063acfa6b52.setContent(html_132c089b5258db68db92f2addd9923b7);
+            
+        
+
+        circle_marker_00dbb8b6eae60cd17ef4bc815c81474e.bindPopup(popup_fb0201cbfad43b19edb3c063acfa6b52)
+        ;
+
+        
+    
+    
+            var circle_marker_b3adcb24770ecf663adaf4ebdf0d24fa = L.circleMarker(
+                [1.3343, 103.8518],
+                {"bubblingMouseEvents": true, "color": "#fd6e33", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6e33", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.951580912378953, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_e3fbc2ce87016f84e8691bea8d7d6e18 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16cdaa81a667ce910a90069b9e36cc10 = $(`<div id="html_16cdaa81a667ce910a90069b9e36cc10" style="width: 100.0%; height: 100.0%;"><b>TOA PAYOH</b><br>Avg Resale Price: 7223.66 SGD/sqm<br>Avg Transactions: 2122<br>Avg Remaining Lease: 74.8 years<br>Median Remaining Lease: 77.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_e3fbc2ce87016f84e8691bea8d7d6e18.setContent(html_16cdaa81a667ce910a90069b9e36cc10);
+            
+        
+
+        circle_marker_b3adcb24770ecf663adaf4ebdf0d24fa.bindPopup(popup_e3fbc2ce87016f84e8691bea8d7d6e18)
+        ;
+
+        
+    
+    
+            var circle_marker_ab820196bf83ba9c8227a7de67f232e0 = L.circleMarker(
+                [1.3343, 103.8518],
+                {"bubblingMouseEvents": true, "color": "#fd7e38", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd7e38", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.846809007117023, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_4b85a0e94930dff558f2589630376f64 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f4a21b4227b634c9677e26d353965d49 = $(`<div id="html_f4a21b4227b634c9677e26d353965d49" style="width: 100.0%; height: 100.0%;"><b>TOA PAYOH</b><br>Avg Resale Price: 7071.46 SGD/sqm<br>Avg Transactions: 1220<br>Avg Remaining Lease: 76.0 years<br>Median Remaining Lease: 76.6 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_4b85a0e94930dff558f2589630376f64.setContent(html_f4a21b4227b634c9677e26d353965d49);
+            
+        
+
+        circle_marker_ab820196bf83ba9c8227a7de67f232e0.bindPopup(popup_4b85a0e94930dff558f2589630376f64)
+        ;
+
+        
+    
+    
+            var circle_marker_52294cc05f18f485df306da158988bca = L.circleMarker(
+                [1.3343, 103.8518],
+                {"bubblingMouseEvents": true, "color": "#febe59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febe59", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.392019600980049, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_78d66dce61e5bce6a41dd64c38b77923 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4e7335dfd4059aa673776f50aeffa2f9 = $(`<div id="html_4e7335dfd4059aa673776f50aeffa2f9" style="width: 100.0%; height: 100.0%;"><b>TOA PAYOH</b><br>Avg Resale Price: 6033.75 SGD/sqm<br>Avg Transactions: 168<br>Avg Remaining Lease: 66.1 years<br>Median Remaining Lease: 65.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_78d66dce61e5bce6a41dd64c38b77923.setContent(html_4e7335dfd4059aa673776f50aeffa2f9);
+            
+        
+
+        circle_marker_52294cc05f18f485df306da158988bca.bindPopup(popup_78d66dce61e5bce6a41dd64c38b77923)
+        ;
+
+        
+    
+    
+            var circle_marker_2b425c7ffc01185d08a82c69f9c0ed93 = L.circleMarker(
+                [1.436, 103.7865],
+                {"bubblingMouseEvents": true, "color": "#fea546", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea546", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.497024851242562, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a50995001192bbf3870b73ff957a3853 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f470cb776e23fd78aafc5cb65d4818f6 = $(`<div id="html_f470cb776e23fd78aafc5cb65d4818f6" style="width: 100.0%; height: 100.0%;"><b>WOODLANDS</b><br>Avg Resale Price: 6486.15 SGD/sqm<br>Avg Transactions: 213<br>Avg Remaining Lease: 91.7 years<br>Median Remaining Lease: 93.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a50995001192bbf3870b73ff957a3853.setContent(html_f470cb776e23fd78aafc5cb65d4818f6);
+            
+        
+
+        circle_marker_2b425c7ffc01185d08a82c69f9c0ed93.bindPopup(popup_a50995001192bbf3870b73ff957a3853)
+        ;
+
+        
+    
+    
+            var circle_marker_4a6b5b19ff8e4f879da1c74a8e60fd41 = L.circleMarker(
+                [1.436, 103.7865],
+                {"bubblingMouseEvents": true, "color": "#fff0a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff0a7", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.281880760704702, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_30bb2c4fb86408022cb9a3c962419c61 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_05142c84f248503b4ff78a3037b41ce4 = $(`<div id="html_05142c84f248503b4ff78a3037b41ce4" style="width: 100.0%; height: 100.0%;"><b>WOODLANDS</b><br>Avg Resale Price: 4814.56 SGD/sqm<br>Avg Transactions: 1835<br>Avg Remaining Lease: 71.9 years<br>Median Remaining Lease: 66.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_30bb2c4fb86408022cb9a3c962419c61.setContent(html_05142c84f248503b4ff78a3037b41ce4);
+            
+        
+
+        circle_marker_4a6b5b19ff8e4f879da1c74a8e60fd41.bindPopup(popup_30bb2c4fb86408022cb9a3c962419c61)
+        ;
+
+        
+    
+    
+            var circle_marker_7777aff0f9708145a983e621546b20d2 = L.circleMarker(
+                [1.436, 103.7865],
+                {"bubblingMouseEvents": true, "color": "#fffac0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffac0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.540777038851942, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a1e7395e6d05ee3447cc4eae3c6fd389 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_34da43d75d5afdc1ee9f3ef74f16a8fe = $(`<div id="html_34da43d75d5afdc1ee9f3ef74f16a8fe" style="width: 100.0%; height: 100.0%;"><b>WOODLANDS</b><br>Avg Resale Price: 4429.57 SGD/sqm<br>Avg Transactions: 6660<br>Avg Remaining Lease: 78.0 years<br>Median Remaining Lease: 76.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a1e7395e6d05ee3447cc4eae3c6fd389.setContent(html_34da43d75d5afdc1ee9f3ef74f16a8fe);
+            
+        
+
+        circle_marker_7777aff0f9708145a983e621546b20d2.bindPopup(popup_a1e7395e6d05ee3447cc4eae3c6fd389)
+        ;
+
+        
+    
+    
+            var circle_marker_98a730b90c7c8354c23171a29dcf5b77 = L.circleMarker(
+                [1.436, 103.7865],
+                {"bubblingMouseEvents": true, "color": "#fffecb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffecb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.498191576245478, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_f7a58f38d112bb16f8ea118a5205a04c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_df6821708f0f16487736707eaa3cd137 = $(`<div id="html_df6821708f0f16487736707eaa3cd137" style="width: 100.0%; height: 100.0%;"><b>WOODLANDS</b><br>Avg Resale Price: 4269.93 SGD/sqm<br>Avg Transactions: 4499<br>Avg Remaining Lease: 77.5 years<br>Median Remaining Lease: 76.8 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_f7a58f38d112bb16f8ea118a5205a04c.setContent(html_df6821708f0f16487736707eaa3cd137);
+            
+        
+
+        circle_marker_98a730b90c7c8354c23171a29dcf5b77.bindPopup(popup_f7a58f38d112bb16f8ea118a5205a04c)
+        ;
+
+        
+    
+    
+            var circle_marker_754cfef2ac72f6c8609cba2a8a606964 = L.circleMarker(
+                [1.436, 103.7865],
+                {"bubblingMouseEvents": true, "color": "#fff6b6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff6b6", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.770855209427138, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_a703b351d419e7c465157157351fc512 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_794159c8d298b4e458751203d54310d6 = $(`<div id="html_794159c8d298b4e458751203d54310d6" style="width: 100.0%; height: 100.0%;"><b>WOODLANDS</b><br>Avg Resale Price: 4570.70 SGD/sqm<br>Avg Transactions: 1616<br>Avg Remaining Lease: 74.1 years<br>Median Remaining Lease: 74.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE']<br></div>`)[0];
+                popup_a703b351d419e7c465157157351fc512.setContent(html_794159c8d298b4e458751203d54310d6);
+            
+        
+
+        circle_marker_754cfef2ac72f6c8609cba2a8a606964.bindPopup(popup_a703b351d419e7c465157157351fc512)
+        ;
+
+        
+    
+    
+            var circle_marker_0e20c805b7ce59927bad7399a3e1ae8b = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#fea446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea446", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.71403570178509, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_61fbfaa19e12eb830b779a9a24972d7f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d5712ad4715e1e2b5cea21cb7743e0d8 = $(`<div id="html_d5712ad4715e1e2b5cea21cb7743e0d8" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 6503.06 SGD/sqm<br>Avg Transactions: 306<br>Avg Remaining Lease: 92.1 years<br>Median Remaining Lease: 93.7 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_61fbfaa19e12eb830b779a9a24972d7f.setContent(html_d5712ad4715e1e2b5cea21cb7743e0d8);
+            
+        
+
+        circle_marker_0e20c805b7ce59927bad7399a3e1ae8b.bindPopup(popup_61fbfaa19e12eb830b779a9a24972d7f)
+        ;
+
+        
+    
+    
+            var circle_marker_86a60f8b42c4c1184d59d3ca8d5f609a = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#ffec9f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffec9f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.058452922646133, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_80c2ee5f983a9240e94bc86f144b4d4e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_74152ba72a87be5c2a8385bdba03f6f9 = $(`<div id="html_74152ba72a87be5c2a8385bdba03f6f9" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 4920.61 SGD/sqm<br>Avg Transactions: 3882<br>Avg Remaining Lease: 70.1 years<br>Median Remaining Lease: 64.9 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_80c2ee5f983a9240e94bc86f144b4d4e.setContent(html_74152ba72a87be5c2a8385bdba03f6f9);
+            
+        
+
+        circle_marker_86a60f8b42c4c1184d59d3ca8d5f609a.bindPopup(popup_80c2ee5f983a9240e94bc86f144b4d4e)
+        ;
+
+        
+    
+    
+            var circle_marker_a107dcdfcba5a5e912e9a8758ccda1a2 = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#fff4b0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff4b0", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.13814024034535, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b006411a44728c152974edb80bc0a8c0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2686493bde36722d6c6a1bd67c6b1c8b = $(`<div id="html_2686493bde36722d6c6a1bd67c6b1c8b" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 4664.61 SGD/sqm<br>Avg Transactions: 6916<br>Avg Remaining Lease: 76.0 years<br>Median Remaining Lease: 68.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_b006411a44728c152974edb80bc0a8c0.setContent(html_2686493bde36722d6c6a1bd67c6b1c8b);
+            
+        
+
+        circle_marker_a107dcdfcba5a5e912e9a8758ccda1a2.bindPopup(popup_b006411a44728c152974edb80bc0a8c0)
+        ;
+
+        
+    
+    
+            var circle_marker_56f52e86c219e0eb4b59668f41193815 = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#fff0a8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff0a8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.614280714035703, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_b502e7b6f1890643350bb52d2cde8e34 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7be3ea0452859f07c09c30674963e8b4 = $(`<div id="html_7be3ea0452859f07c09c30674963e8b4" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 4790.82 SGD/sqm<br>Avg Transactions: 2406<br>Avg Remaining Lease: 77.6 years<br>Median Remaining Lease: 69.5 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_b502e7b6f1890643350bb52d2cde8e34.setContent(html_7be3ea0452859f07c09c30674963e8b4);
+            
+        
+
+        circle_marker_56f52e86c219e0eb4b59668f41193815.bindPopup(popup_b502e7b6f1890643350bb52d2cde8e34)
+        ;
+
+        
+    
+    
+            var circle_marker_457240f793f93e7d16704d29da00019c = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#fff3ae", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff3ae", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.584412553961031, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_6a303559146b2297ff0460e2dda80fc3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6dcab4a0185904294fa0b6d2c9e8840c = $(`<div id="html_6dcab4a0185904294fa0b6d2c9e8840c" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 4705.42 SGD/sqm<br>Avg Transactions: 679<br>Avg Remaining Lease: 66.3 years<br>Median Remaining Lease: 66.2 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_6a303559146b2297ff0460e2dda80fc3.setContent(html_6dcab4a0185904294fa0b6d2c9e8840c);
+            
+        
+
+        circle_marker_457240f793f93e7d16704d29da00019c.bindPopup(popup_6a303559146b2297ff0460e2dda80fc3)
+        ;
+
+        
+    
+    
+            var circle_marker_6ff965638fd19e7cdf6725621c9d5573 = L.circleMarker(
+                [1.4294, 103.835],
+                {"bubblingMouseEvents": true, "color": "#ffea9b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea9b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1026718002566795, "stroke": true, "weight": 3}
+            ).addTo(map_ec0629931e0df3491a9f23db6813c662);
+        
+    
+        var popup_54bfa897a93cabd9f89677ba5ff092b7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_38b64eee9ed9945696cc4b6dee543294 = $(`<div id="html_38b64eee9ed9945696cc4b6dee543294" style="width: 100.0%; height: 100.0%;"><b>YISHUN</b><br>Avg Resale Price: 4992.55 SGD/sqm<br>Avg Transactions: 44<br>Avg Remaining Lease: 66.2 years<br>Median Remaining Lease: 66.4 years <br>Room Types: ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']<br></div>`)[0];
+                popup_54bfa897a93cabd9f89677ba5ff092b7.setContent(html_38b64eee9ed9945696cc4b6dee543294);
+            
+        
+
+        circle_marker_6ff965638fd19e7cdf6725621c9d5573.bindPopup(popup_54bfa897a93cabd9f89677ba5ff092b7)
+        ;
+
+        
+    
+</script>
+</html>
