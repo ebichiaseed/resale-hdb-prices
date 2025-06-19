@@ -1,4 +1,3 @@
-# resale-hdb-prices
 # Resale HDB Prices Analysis (Singapore)
 
 This project explores and analyzes public resale flat transactions in Singapore using structured data analytics and visualization. It aims to uncover pricing patterns, lease trends, and spatial dynamics across towns and flat types, enabling better understanding of the housing landscape.
